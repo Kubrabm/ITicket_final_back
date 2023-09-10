@@ -2280,11 +2280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.DAL\\ITicket.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.DAL\\ITicket.DAL.csproj",
       "projectName": "ITicket.DAL",
-      "projectPath": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.DAL\\ITicket.DAL.csproj",
+      "projectPath": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.DAL\\ITicket.DAL.csproj",
       "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kubra\\AppData\\Roaming\\NuGet\\NuGet.Config",

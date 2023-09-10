@@ -11024,11 +11024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\ITicket.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\ITicket.MVC.csproj",
       "projectName": "ITicket.MVC",
-      "projectPath": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\ITicket.MVC.csproj",
+      "projectPath": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\ITicket.MVC.csproj",
       "packagesPath": "C:\\Users\\Kubra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\obj\\",
+      "outputPath": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kubra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11046,8 +11046,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.DAL\\ITicket.DAL.csproj": {
-              "projectPath": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.DAL\\ITicket.DAL.csproj"
+            "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.DAL\\ITicket.DAL.csproj": {
+              "projectPath": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.DAL\\ITicket.DAL.csproj"
             }
           }
         }

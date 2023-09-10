@@ -130,3 +130,15 @@ C:\Users\Kubra\Desktop\Final new\ITicket-back-main\ITicket.DAL\obj\Debug\net6.0\
 C:\Users\Kubra\Desktop\Final new\ITicket-back-main\ITicket.DAL\obj\Debug\net6.0\refint\ITicket.DAL.dll
 C:\Users\Kubra\Desktop\Final new\ITicket-back-main\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.pdb
 C:\Users\Kubra\Desktop\Final new\ITicket-back-main\ITicket.DAL\obj\Debug\net6.0\ref\ITicket.DAL.dll
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\bin\Debug\net6.0\ITicket.DAL.deps.json
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\bin\Debug\net6.0\ITicket.DAL.dll
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\bin\Debug\net6.0\ITicket.DAL.pdb
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.csproj.AssemblyReference.cache
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.AssemblyInfoInputs.cache
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.AssemblyInfo.cs
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.dll
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\refint\ITicket.DAL.dll
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ITicket.DAL.pdb
+C:\Users\Kubra\Desktop\ITicket_final_back\ITicket.DAL\obj\Debug\net6.0\ref\ITicket.DAL.dll

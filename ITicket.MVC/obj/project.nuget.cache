@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g7EtBbDnASWZteNAonlBRnZYCHsC21GkapTb9zD4IEl7UaG2LUcXFUNw6DY9gqyfXsSXelEq5WTx8O/DBfIUBg==",
+  "dgSpecHash": "AV0hfqMTP/tREhGMPGAt5atKHEPNouEaiNto0Ck1Pb2M5bS9k0BOGsFf+9pKiVWCvoHskRDH4UTkcB/BsdKxYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\ITicket.MVC.csproj",
+  "projectFilePath": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\ITicket.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kubra\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Kubra\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
