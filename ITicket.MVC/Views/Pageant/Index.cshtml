@@ -32,10 +32,10 @@
             <div class="col-lg-4 col-sm-6 col-md-4 ">
                 <div class="box">
                     <div class="img">
-                        <a href="#" asp-controller="concert" asp-action="details" asp-route-id="@item.Id">
+                        <a  asp-controller="concert" asp-action="details" asp-route-id="@item.Id">
                             <img src="~/assets/image/@item.ImgUrl"
                                  style="background-image:
-                                url(https://cdn.iticket.az/event/poster_bg/@item.BgImgUrl);"
+                                url(@item.BgImgUrl);"
                                  alt="img" draggable="false">
                         </a>
                     </div>
