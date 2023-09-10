@@ -1,0 +1,56 @@
+﻿
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    MasterClassViewModel model = Model;
+    var boxitems = model.MasterClasses;
+}
+
+
+
+<!-- Main -->
+<div class="custom_container">
+    <div class="other_page_main">
+        <div class="tittle_page">
+            <h1>Uşaqlar</h1>
+        </div>
+        @await Component.InvokeAsync("SellectBtn")
+    </div>
+</div>
+<!-- End of the main -->
+<!-- Box -->
+<div class="custom_container">
+    <div class="row" id="boxrow">
+        @foreach (var item in boxitems)
+        {
+            <div class="col-lg-4 col-sm-6 col-md-4 ">
+                <div class="box">
+                    <div class="img">
+                        <a href="Details/@item.Id">
+                            <img src="~/assets/image/@item.ImgUrl"
+                                 style="background-image:
+                                url(@item.BgImgUrl);"
+                                 alt="img" draggable="false">
+                        </a>
+                    </div>
+                    <p>
+                        <span id="event_date">@item.Date</span>
+                        <span id="event_location"> • @item.Location</span>
+                        <span id="name">@item.Name</span>
+                    </p>
+                    <button><span class="btn"><span class="price">@item.Price ₼</span>-dan</span></button>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
+<!-- End of the box -->
+
+@await Component.InvokeAsync("LoadMore")
+
+@await Component.InvokeAsync("BasketSecond")

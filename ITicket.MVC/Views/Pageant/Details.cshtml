@@ -1,0 +1,295 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model Pageant;
+
+<!-- Inner -->
+<div class="custom_container">
+
+    <div class="detailsimg">
+
+        <div class="details-container">
+            <img class="ticketImage" src="~/assets/image/@Model.DetailPageImg">
+        </div>
+
+        <div class="imgicon">
+
+            <a id="price" href="#"><span class="price">@Model.Price ₼</span>-dan</a>
+            <a id="like" href=""><i class="fa-regular fa-heart"></i></a>
+            <a id="sharebtn" href="#">
+                <i class="fa-regular fa-share-from-square"></i>
+            </a>
+
+        </div>
+        <!-- The Modal Login -->
+        <div id="id04" class="share d-none">
+            <span class="close" id="close4" title="Close Modal">&times;</span>
+            <form class="modal-content animate" action="/action_page.php">
+
+                <div class="sharelink">
+                    <div class="title">
+                        <p>Paylaş</p>
+                    </div>v>
+                    <div class="sharesmm">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <a href="">
+                                    <i class="fa-brands fa-square-whatsapp"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-2">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-2">
+                                <a href="">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-2">
+                                <a href="">
+                                    <i class="fa-brands fa-vk"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-2">
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="copy">
+                            <p>Və ya linki kopyala</p>
+                        </div>
+                        <div class="form-group">
+                            <button id="sharebtn" type="submit" class="btn">
+                                Paylaş
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="detailsinfo">
+            <div class="row">
+                <div id="detalinfobox" class="col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="img">
+                                <img id="img1" src="~/assets/image/venue.svg" alt="">
+                                <img id="img2" src="~/assets/image/date.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="text">
+                                <p>Məkan</p>
+                                <p>Tarix</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="detalinfobox" class="col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="img">
+                                <img id="img1" src="~/assets/image/age.svg" alt="">
+                                <img id="img2" src="~/assets/image/globe.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="text">
+                                <p>Dil</p>
+                                <p>Yaş məhdudiyyəti</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="detalinfobox" class="col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="img">
+                                <img id="img1" src="~/assets/image/currency.svg" alt="">
+                                <img id="img2" src="~/assets/image/tickets.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="text">
+                                <p>Qiymət</p>
+                                <p>Biletlər haqda</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="detalinfobox" class="col-lg-2">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div class="img">
+                                <img src="~/assets/image/info.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="text">
+                                <p>Tədbir haqqında</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ticketdetails">
+            <div class="ticketinfo">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p id="name">Kuba gecəsi (Dil: Multilingual) (18+)</p>
+                        <p id="place">Hayal Kahvesi</p>
+                    </div>
+                    <div id="ticketinfobox" class="col-lg-5">
+                        <p id="date">Tarix</p>
+                        <p id="dateinfo">B. 13.08.2023 21:00 - 22:30</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <p id="price">Qiymət</p>
+                        <p id="priceinfo">10 - 40 ₼</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ticketplace">
+                <div class="placecolorandbox" style="background-color: #e5e7eb; padding: 2rem 8rem;">
+                    <div class="row">
+                        <div id="ticketplacebox" class="col-lg-4">
+                            <div class="variation" data-price_category_id="23119">
+                                <div class="sector">Ayaqüstü Zona</div>
+                                <div class="price-category">
+                                    <div class="buyer-type" title="GA Standard">GA Standard</div>
+                                    <div class="price" data-value="10"><span class="ticketPrice">10</span><span>₼</span></div>
+                                </div>
+                                <div class="counter">
+                                    <button type="button" class="decrease">-</button>
+                                    <input type="number" autocomplete="off" readonly="" min="1" max="10" value="1" step="1">
+                                    <button type="button" class="increase">+</button>
+                                </div><div class="available">Mövcuddur: 186</div><button class="add">Əlavə edin</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="eventinfo">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="infobtn">
+                        <a id="firstinfobtn" href="">Tədbir haqqında</a>
+                        <a href="">Yaş məhdudiyyəti / Dil</a>
+                    </div>
+                    <div class="infotext">
+                        <p id="firstbtninfo">
+                            Rəngarəng Kuba musiqisinin incilərindən: Yanssel Kastelonun rəhbərlik etdiyi
+                            “Los Amigos” qrupu Hayal Kahvesində.Azərbaycanı çox sevən Yanssel doğma ispan
+                            dili və bəzi azərbaycan dilində olan bəstələri, həmçinin dinamik və zəngin ritmlərlə
+                            bəzdiyi repertuarı ilə #hayalkahvesibaku ‘nun qonağı olacaq.
+                        </p>
+                        <p>
+                            Bütünlüklə düşünülmüş bu şouda sizə qalan isə gözəl musiqi və zərb şoularının
+                            müşayiətində əylənib rəqs etməkdir.
+                        </p>
+                        <p id="secondbtninfo">18+ / Multilingual</p>
+
+                    </div>
+                    <img id="imgsecond" src="./assets/image/slider/cuban_nights.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="img">
+                        <img src="./assets/image/slider/cuba_nights2.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="locaton">
+            <div class="tittle">
+                Məkan yeri
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6079.439321919717!2d49.849699!3d40.370740000000005!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIyJzE0LjciTiA0OcKwNTAnNTguOSJF!5e0!3m2!1sen!2sus!4v1691860761481!5m2!1sen!2sus"
+                                width="600" height="450" style="border:0;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="place">
+                        <p id="placeone">@Model.Location</p>
+                        <p>Park Bulvar TM, Neftçilər pr.1, Baku, Azərbaycan</p>
+                        <p id="placeone">Telefon</p>
+                        <a id="telphone" href="tel:+994124242424" class="phone">+994 12 424 24 24</a>
+                    </div>
+                    <div class="rotaimg">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <a id="rota" href="https://www.google.com/maps?ll=40.37074,49.849699&z=15&t=m&hl=en&gl=US&mapclient=embed&q=40°22%2714.7"
+                                   target="_blank">İstiqamət</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="~/assets/image/kerimcan.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- End of the inner -->
+
+<!-- Similarevents -->
+<div class="custom_container">
+
+    <div class="Similaractions">
+
+        <div class="tittle_page">
+            <h1>Oxşar tədbirlər</h1>
+        </div>
+
+        <div class="box">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="img">
+                        <a href="~/details/index">
+                            <img src="~/assets/image/iremderici.png" style="background-image: url(./assets/image/bgiremderici.jpg);" alt="img" draggable="false">
+                        </a>
+                    </div>
+                    <p>
+                        <span id="event_date">@Model.Date</span>
+                        <span id="event_location"> • @Model.Location</span>
+                        <span id="name">@Model.Name</span>
+                    </p>
+                    <button><span class="btn"><span class="price">@Model.Price ₼</span>-dan</span></button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- End of the similarevents -->
+@await Component.InvokeAsync("BasketSecond")
+

@@ -1,0 +1,257 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ITicket.MVC
+build_property.RootNamespace = ITicket.MVC
+build_property.ProjectDir = C:\Users\Kubra\Desktop\Final new\ITicket-back-main\ITicket.MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Kubra\Desktop\Final new\ITicket-back-main\ITicket.MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Concert/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xDb25jZXJ0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Concert/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xDb25jZXJ0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Concert/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xDb25jZXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Concert/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xDb25jZXJ0XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xVc2Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xVc2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/Users/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xVc2Vyc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Areas/AdminPanel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/AllEvents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/BasketItem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0SXRlbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Concert/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uY2VydFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Concert/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uY2VydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Eticket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXRpY2tldFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/FAQ/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRkFRXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/KhayalKahvesi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hheWFsS2FodmVzaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/KhayalKahvesi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hheWFsS2FodmVzaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Kid/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lkXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Kid/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/KRF/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS1JGXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Likes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlrZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/MasterClass/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyQ2xhc3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/MasterClass/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzdGVyQ2xhc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Museum/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzZXVtXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Museum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzZXVtXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Other/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3RoZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Other/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3RoZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Pageant/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZWFudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Pageant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZWFudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Pointofsales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9pbnRvZnNhbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Privacy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmFjeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Return/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0dXJuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Rules/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Seminar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtaW5hclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Seminar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VtaW5hclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/Components/BasketSecond/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmFza2V0U2Vjb25kXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/Components/Footer/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/Components/Header/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/Components/LoadMore/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9hZE1vcmVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/Components/RightNav/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmlnaHROYXZcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/Components/SellectBtn/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VsbGVjdEJ0blxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/_KidPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LaWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Sport/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Sport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Support/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcG9ydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Tourism/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Tourism/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91cmlzbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/Venues/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kubra/Desktop/Final new/ITicket-back-main/ITicket.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

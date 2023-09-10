@@ -1,0 +1,1089 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\documentation\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\documentation\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\documentation\\documentation.html",
+      "PackagePath": "staticwebassets\\admin\\documentation\\documentation.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\charts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\charts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\forms\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\forms\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\icons\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\icons\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\samples\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\tables\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\tables\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\ui-features\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\admin\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\partials\\_settings-panel.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_settings-panel.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\admin\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\_basket.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_basket.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\_details.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\_index.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_index.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\_otherpages.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_otherpages.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\_product.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_product.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\otherpages.css",
+      "PackagePath": "staticwebassets\\assets\\css\\otherpages.css"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\otherpages.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\otherpages.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\css\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\3d-map.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\3d-map.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\about-title.png",
+      "PackagePath": "staticwebassets\\assets\\image\\about-title.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\age.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\age.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\android.png",
+      "PackagePath": "staticwebassets\\assets\\image\\android.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\app.png",
+      "PackagePath": "staticwebassets\\assets\\image\\app.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\checkbox.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\checkbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert10.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert10.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert11.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert11.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert12.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert12.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert13.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert13.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert14.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert14.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert6.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert7.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert8.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert8.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\concert9.png",
+      "PackagePath": "staticwebassets\\assets\\image\\concert9.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\cuba_nights2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\cuba_nights2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\cuban_nights.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\cuban_nights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\currency.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\currency.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\date.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\date.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\delivery_1.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\delivery_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\delivery_2.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\delivery_2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\epoint-january-2023-1250x122.gif",
+      "PackagePath": "staticwebassets\\assets\\image\\epoint-january-2023-1250x122.gif"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\globe.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\globe.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\hover.png",
+      "PackagePath": "staticwebassets\\assets\\image\\hover.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\icard-banner-desktop-03-2023.gif",
+      "PackagePath": "staticwebassets\\assets\\image\\icard-banner-desktop-03-2023.gif"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\info.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\info.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\ios.png",
+      "PackagePath": "staticwebassets\\assets\\image\\ios.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid10.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\kid10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid6.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid7.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid8.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid8.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\kid9.png",
+      "PackagePath": "staticwebassets\\assets\\image\\kid9.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\login_bg.png",
+      "PackagePath": "staticwebassets\\assets\\image\\login_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\logo_head.jfif",
+      "PackagePath": "staticwebassets\\assets\\image\\logo_head.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass6.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass7.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\masterclass8.png",
+      "PackagePath": "staticwebassets\\assets\\image\\masterclass8.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\mueum1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\mueum1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\mueum2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\mueum2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\mueum3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\mueum3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\mueum4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\mueum4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\mueum5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\mueum5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\mueum6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\mueum6.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pageant1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\pageant1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pageant2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\pageant2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pageant3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\pageant3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pageant4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\pageant4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pageant5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\pageant5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pageant6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\pageant6.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pageant7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\pageant7.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\pament_cards.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\pament_cards.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar6.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar7.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar8.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar8.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\seminar9.png",
+      "PackagePath": "staticwebassets\\assets\\image\\seminar9.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider_photo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider_photo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider_photo3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider_photo4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider_photo5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo6.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider_photo6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo7.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider_photo7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sport1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sport1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sport2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sport2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sport3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sport3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sport4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sport4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sport5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sport5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sport6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sport6.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sport7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sport7.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\sqrxjX80NtUXY8xQvHiadSSV61i8AW13lNnyFuoa.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\sqrxjX80NtUXY8xQvHiadSSV61i8AW13lNnyFuoa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\tickets.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\tickets.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\tourism.png",
+      "PackagePath": "staticwebassets\\assets\\image\\tourism.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\tourism1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\tourism1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\tourism2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\tourism2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\tourism5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\tourism5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\image\\venue.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\venue.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\basket.js",
+      "PackagePath": "staticwebassets\\assets\\js\\basket.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\buyticket.js",
+      "PackagePath": "staticwebassets\\assets\\js\\buyticket.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\faq.js",
+      "PackagePath": "staticwebassets\\assets\\js\\faq.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\hamburger.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hamburger.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\search.js",
+      "PackagePath": "staticwebassets\\assets\\js\\search.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\share.js",
+      "PackagePath": "staticwebassets\\assets\\js\\share.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\Final new\\ITicket-back-main\\ITicket.MVC\\wwwroot\\assets\\js\\wrapper.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wrapper.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ITicket.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ITicket.MVC.props",
+      "PackagePath": "build\\ITicket.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ITicket.MVC.props",
+      "PackagePath": "buildMultiTargeting\\ITicket.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ITicket.MVC.props",
+      "PackagePath": "buildTransitive\\ITicket.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

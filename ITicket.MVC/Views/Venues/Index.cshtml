@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!-- Main -->
+<div class="custom_container">
+    <div class="main">
+        <div class="div_title">Məkanlar</div>
+        <div class="div_main">
+            <div class="place">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <img src="https://cdn.iticket.az/venue/poster/ubl3kD4COIpI0iSMuIO5bKr6QRgMraHg.png" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="place_info">
+                            <div class="venue-name">
+                                <a id="venue-name" href="/venues/dubendi-seaside-qoltuk-beach" class="">
+                                    Dübəndi sahili, Qoltuk çimərliyi
+                                </a>
+                            </div>
+                            <div class="venue-address" id="venue-address">
+                                Bakı, Xəzər rayonu, Dübəndi sahili, Qoltuk çimərliyi
+                            </div>
+                            <div class="venue-phones">
+                                <div id="venue-phones-title" class="title">Telefon</div>
+                                <a id="venue-phones-number" href="tel:+994556021254">+994556021254</a>
+                            </div>
+                            <div>
+                                <a id="venue-button" href="http://maps.google.com/maps?q=40.471977,50.247743" target="_blank" class="btn">
+                                    İstiqamət
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of the main -->
+
+@await Component.InvokeAsync("LoadMore")
+
+@await Component.InvokeAsync("BasketSecond")

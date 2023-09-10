@@ -1,0 +1,242 @@
+﻿<!-- Header -->
+<header id="otherheader">
+    <div class="custom_container">
+        <div class="all_header">
+
+            <div class="responsive_bar d-none ">
+                <button class="subscribe" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- The Hamburger Search -->
+                <div id="hamburger" class="hamburger">
+                    <nav>
+                        <a href="~/allevents/index">Bütün tədbirlər</a>
+                        <a href="~/concert/index">Konsert</a>
+                        <a href="~/pageant/index">Tamaşa</a>
+                        <a href="~/kids/index">Uşaqlar</a>
+                        <a href="~/khayalkahvesi/index">Hayal Kahvesi</a>
+                        <a href="~/sport/index">İdman</a>
+                        <a href="~/museum/index">Muzey</a>
+                        <a href="~/tourism/index">Turizm</a>
+                        <a href="~/seminar/index">Seminar</a>
+                        <a href="~/masterclass/index">Master Klass</a>
+                        <a href="~/other/index">Digər</a>
+                        <a href="~/products/index">Məhsullar</a>
+                        <a href="https://iticket360.com" target="_blank">360°/VR</a>
+
+                    </nav>
+                </div>
+                <!-- End of the hamburger -->
+
+            </div>
+
+            <div class="left_side">
+                <div class="logo">
+                    <a href="~/home/index">
+                        <img src="~/assets/image/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="lang">
+                    <a href="#" class="d-none">AZ</a>
+                    <a href="#">EN</a>
+                    <a href="#">RU</a>
+                </div>
+            </div>
+
+            <nav>
+                <a href="~/allevents/index">Bütün tədbirlər</a>
+                <a href="~/concert/index">Konsert</a>
+                <a href="~/pageant/index">Tamaşa</a>
+                <a href="~/kid/index">Uşaqlar</a>
+                <a href="~/khayalkahvesi/index">Hayal Kahvesi</a>
+                <a href="~/sport/index">İdman</a>
+                <span class="options">...</span>
+            </nav>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a style="color:aliceblue">@User.Identity.Name</a>
+                <a style="color:aliceblue" asp-controller="account" asp-action="logout">Logout</a>
+
+            }
+
+            <div class="right_side">
+                <a id="like" href="~/like/index">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+
+                <button class="subscribe" id="openSearchButton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <!-- The Modal Search -->
+                <div id="serachbtn" class="serachbtn">
+                    <div class="row">
+                        <div class="col-lg-10" id="search-left">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" id="searchInput" placeholder="Axtar">
+                            <div id="result"></div>
+                        </div>
+                        <div class="col-lg-2" id="search-right">
+                            <div class="closesearch">
+                                <button id="closeSearchButton">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of the search -->
+
+                <a class="basketbtn" id="basketbtn" href="~/BasketItem/index">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="basket_count" id="basket_count">0</span>
+                </a>
+
+                <button id="user">
+                    <i class="fa-regular fa-user"></i>
+                </button>
+
+                <!-- The Modal Register -->
+                <div id="login_modal" class="login d-none">
+                    <span class="close" id="close_login">
+                        &times;
+                    </span>
+                    <form class="login-content animate" id="login-content">
+                        <div class="login_main" id="login_main">
+                            <div class="row" id="tittle">
+                                <div class="col-lg-6">
+                                    <p>Daxil ol</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <i id="facebook" class="fa-brands fa-facebook"></i>
+                                    <i id="google" class="fa-brands fa-google-plus"></i>
+                                </div>
+                            </div>
+                            <form>
+                                <div id="login_form" class="bg-white p-4 mb-4 font-medium rounded-md shadow-md hidden">
+                                    <div class="form-group">
+                                        <input type="text" name="login" placeholder="E-poçt və ya telefon nömrəsi">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="password" placeholder="Şifrə">
+                                        <a href="#" id="forget" class="forget">Unutmusunuz?</a>
+                                    </div>
+                                    <div class="form-group">
+                                        <button id="login_btn" type="submit" class="btn">
+                                            Daxil ol
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="modal-footer" id="modal-footer">
+                                iTicket.AZ-da yenisiniz?
+                                <a href="#" class="registration">
+                                    Qeydiyyatdan keçin
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- End of the register -->
+                <!-- The Modal Forget Password -->
+                <div id="forget_modal" class="forgetpassword d-none">
+                    <span class="close" id="close_forget">
+                        &times;
+                    </span>
+                    <form class="forget-content animate" id="forget-content">
+
+                        <div id="forget_main" class="forget_main d-block">
+                            <form>
+                                <p id="tittle">Şifrəni sıfırla</p>
+                                <div id="forget_form" class="bg-white p-4 mb-4 font-medium rounded-md shadow-md hidden"></div>
+                                <div class="form-group">
+                                    <input type="text" name="login" placeholder="E-poçt və ya telefon nömrəsi">
+                                </div>
+                                <div class="form-group">
+                                    <button id="reset_btn" type="submit" class="btn">
+                                        Sıfırla
+                                    </button>
+                                </div>
+                                <div class="modal-footer">
+                                    Şifrənizi xatırlayırsınız?
+                                    <a href="#" class="callback">
+                                        Daxil ol
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </form>
+                </div>
+                <!-- End of the forget password -->
+                <!-- The Modal Sign Up -->
+                <div id="signin_modal" class="signin d-none">
+                    <span class="close_signin" id="close_signin">
+                        &times;
+                    </span>
+                    <form class="signin-content animate" id="signin-content">
+
+                        <div id="signin_main" class="signin_main d-block">
+                            <div class="row" id="tittle">
+                                <div class="col-lg-6">
+                                    <p>Qeydiyyat</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <i id="facebook" class="fa-brands fa-facebook"></i>
+                                    <i id="google" class="fa-brands fa-google-plus"></i>
+                                </div>
+                            </div>
+                            <form>
+                                <div id="signinin_form" class="bg-white p-4 mb-4 font-medium rounded-md shadow-md hidden"></div>
+                                <div class="form-group">
+                                    <input type="text" name="signin" placeholder="Ad">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="signin" placeholder="Soyad">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="signin" placeholder="Mobil">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="signin" placeholder="E-poçt">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="signin" placeholder="Şifrə">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="signin" placeholder="Şifəni təsdqləyin">
+                                </div>
+                                <div class="form-group">
+                                    <button id="signin_btn" type="submit" class="btn">
+                                        Qeydiyyat
+                                    </button>
+                                </div>
+                                <div class="modal-footer">
+                                    Artıq qeydiyyatdan keçmisiniz?
+                                    <a id="returnlog" href="#" class="callback">
+                                        Daxil olun
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </form>
+                </div>
+                <!-- End of the sign up -->
+            </div>
+
+            <div class="navbar_options d-none">
+                <a href="~/museum/index">Muzey</a>
+                <a href="~/tourism/index">Turizm</a>
+                <a href="~/seminar/index">Seminar</a>
+                <a href="~/masterclass/index">Master Klass</a>
+                <a href="~/other/index">Digər</a>
+                <a href="~/product/index">Məhsullar</a>
+                <a href="https://iticket360.com" target="_blank">360°/VR</a>
+            </div>
+
+
+
+        </div>
+    </div>
+</header>
+<!-- End of the header -->

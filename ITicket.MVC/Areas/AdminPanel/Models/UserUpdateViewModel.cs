@@ -1,0 +1,18 @@
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System.ComponentModel.DataAnnotations;
+
+namespace ITicket.MVC.Areas.AdminPanel.Models
+{
+    public class UserUpdateViewModel
+    {
+        public string Id { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? UserName { get; set; }
+        [EmailAddress]
+        public string? Email { get; set; }
+        public string? CurretRole { get; set; }
+        public string? Role { get; set; }
+        public List<SelectListItem> Roles { get; set; }
+    }
+}

@@ -1,0 +1,53 @@
+﻿@using ITicket.MVC.ViewModels;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    AllEventsViewModel model = Model;
+    var boxitems = model.Concerts;
+}
+
+
+<!-- Main -->
+<div class="custom_container">
+    <div class="other_page_main">
+        <div class="tittle_page">
+            <h1>Bütün tədbirlər</h1>
+        </div>
+        @await Component.InvokeAsync("SellectBtn")
+    </div>
+</div>
+<!-- End of the main -->
+<!-- Box -->
+<div class="custom_container">
+    <div class="row" id="boxrow">
+        <div class="col-lg-4 col-sm-6 col-md-4 ">
+            <div class="box">
+                <div class="img">
+                    <a href="~/details/index">
+                        <img src="~/assets/image/alon.png"
+                             style="background-image:
+                                url(https://cdn.iticket.az/event/poster_bg/QwmUVfAyGPqpa8tW6oIvz1xN8zFbaAi0ZMySugnD.jpg);"
+                             alt="img" draggable="false">
+                    </a>
+                </div>
+                <p>
+                    <span id="event_date">07 oktyabr 2023</span>
+                    <span id="event_location"> • Heydər Əliyev Sarayı</span>
+                    <span id="name">Alon Farber(Israel)</span>
+                </p>
+                <button><span class="btn"><span class="price">30 ₼</span>-dan</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End of the box -->
+@await Component.InvokeAsync("LoadMore")
+
+@await Component.InvokeAsync("BasketSecond")
+
+

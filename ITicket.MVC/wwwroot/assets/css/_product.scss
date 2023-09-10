@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom_container{
+    width: 1330px;
+    margin: 0 auto;
+}
+
+body{
+
+    font-family: Arial, sans-serif;
+    background-color: #e5e7eb;
+
+    .card{
+        img{
+            width: 100%;
+        }
+    }
+}

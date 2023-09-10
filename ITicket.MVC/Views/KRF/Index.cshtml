@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!-- Main -->
+<div class="custom_container">
+    <div class="div_main">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="div_left">
+                    <div class="info_box" id="info_box">
+                        <b>“iTicket.az” və Qarabağ Dirçəliş Fondu arasında əməkdaşlıq haqqında razılaşma əldə olunub.</b>
+                        <p>
+                            Razılaşmanın əsas məqsəd və vəzifəsi birgə layihə və tədbirlərin həyata keçirilməsi ilə erməni işğalından
+                            azad edilmiş ərazilərin inkişaf edən regiona çevrilməsi prosesinə yardım etməkdir.
+                        </p>
+
+                        <p>
+                            6 illik fəaliyyəti müddətində “iTicket.az” biznesin korporativ sosial məsuliyyətinin əsas prinsiplərinə müvəffəqiyyətlə
+                            əməl edərək, şirkətin əsas fəaliyyəti ilə bilavasitə bağlı olan sosial, iqtisadi və ekoloji sahədə Azərbaycan cəmiyyətinin
+                            inkişafına könüllü töhfə verir.
+                        </p>
+
+                        <p>
+                            “iTicket.az” ilə Qarabağ Dirçəliş Fondu arasında əməkdaşlıq 2022-ci ilin yayında Mədəniyyət Nazirliyinin təşkilati dəstəyilə,
+                            eləcə də fondun təşəbbüsü və təşkilatçılığı ilə Azərbaycan Dövlət Akademik Filarmoniyasında keçirilmiş “Qarabağ gecəsi” xeyriyyə
+                            konsertindən başlayıb. Layihə çərçivəsində iTicket.az tədbirə biletlərin satışını həyata keçirib. Konsertdən toplanmış vəsaitlər
+                            işğaldan azad edilmiş ərazilərin bərpası və yenidən qurulması, eləcə də dayanıqlı iqtisadiyyata və yüksək rifaha malik regiona çevrilməsi,
+                            həmçinin həmin ərazilərdəki ekoloji tarazlığın bərpa olunması istiqamətində həyata keçirilən tədbirlərə yönəldilib.
+                        </p>
+
+                        <p>
+                            Uğurlu başlanğıcdan sonra iTicket.az ilə Qarabağ Dirçəliş Fondu arasında əməkdaşlıq davam edərək birgə layihə ilə nəticələndi. Bu layihə
+                            çərçivəsində hər kəs işğaldan azad edilmiş ərazilərin bərpasına öz töhfəsini verə bilər. Bu, saytda xüsusi funksiyanın işə salınmasından
+                            sonra mümkün oldu. Belə ki, artıq təqdim olunan hər hansı tədbirə bilet əldə etməklə Qarabağ Dirçəliş Fonduna istədiyiniz məbləğdə ianə
+                            edə bilərsiniz. Biletlərin alınması və ianə prosesi cəmi bir neçə kliklə həyata keçirilir və vəsait dərhal fondun hesabına yönləndirilir.
+                        </p>
+
+                        <p>
+                            “iTicket.az” ilə Qarabağ Dirçəlişi Fondu arasında əldə olunmuş razılaşmanın əsasını məhz bu məsələ təşkil edir. Bu da öz növbəsində
+                            innovativ texniki imkanlardan istifadə etməklə Azərbaycanda xeyriyyəçilik mədəniyyətinin təbliğinə mühüm töhfə verəcək.
+                        </p>
+
+                        <p>
+                            iTicket.az saytından hər hansı tədbirə bilet əldə etdikdə, istəyinizə uyğun olaraq, işğaldan azad edilmiş ərazilərin bərpası və
+                            dirçəlişi üzrə məsul missiyaya dəstək ola bilərsiniz. Etdiyiniz hər bir ianə Qarabağın dirçəlişinə əhəmiyyətli töhfə olacaq.
+                        </p>
+
+                        <p>
+                            Qarabağ Dirçəliş Fondu və “iTicket.az” ilə birlikdə Qarabağı bərpa edin və onu daha da gözəlləşdirin!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                @await Component.InvokeAsync("RightNav")
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of the main -->
+
+@await Component.InvokeAsync("BasketSecond")

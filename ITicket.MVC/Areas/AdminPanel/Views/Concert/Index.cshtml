@@ -1,0 +1,70 @@
+﻿@model List<Concert>
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Concerts Table</h4>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Img
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Location
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                            <th>
+                                Date
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in Model)
+                        {
+                            <tr>
+                                <td class="py-1">
+                                    <img src="~/assets/image/@item.ImgUrl" alt="image" />
+                                </td>
+                                <td>
+                                    @item.Name
+                                </td>
+                                <td>
+                                    @item.Location
+                                </td>
+                                <td>
+                                    @item.Price
+                                </td>
+                                <td>
+                                    @item.Date
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary" asp-action="details" asp-route-id="@item.Id">Details</a>
+
+                                    <a class="btn btn-warning" asp-action="update" asp-route-id="@item.Id">Update</a>
+
+                                    <form asp-controller="concert" asp-action="delete" method="post">
+                                        <input name="id" value="@item.Id"  type="hidden"/>
+                                        <button type="submit" class="btn btn-danger">Delete</button>
+                                    </form>
+
+                                </td>
+                                
+                            </tr>
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

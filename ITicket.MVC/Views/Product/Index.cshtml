@@ -1,0 +1,91 @@
+﻿@using ITicket.MVC.ViewModels;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ProductViewModel model = Model;
+    var boxitems = model.Products;
+}
+
+<!-- Main -->
+<div class="custom_container">
+    <div class="other_page_main">
+        <div class="tittle_page">
+            <h1>Bütün məhsullar</h1>
+        </div>
+    </div>
+</div>
+<!-- End of the main -->
+
+<!-- Box -->
+<div class="custom_container">
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 col-md-4">
+            <div class="card">
+                <div class="image">
+                    <img src="https://cdn.iticket.az/product_variation/gallery/cV4IF7eHONbdn5cdWAOhAkY2Qkr4HbRd.png"
+                         data-src="https://cdn.iticket.az/product_variation/gallery/cV4IF7eHONbdn5cdWAOhAkY2Qkr4HbRd.png" class=" ls-is-cached lazyloaded">
+                </div>
+                <div class="info">
+                    <div class="name">
+                        <div>
+                            Isfar Sarabski Disk
+                        </div>
+                    </div>
+                    <div class="type">
+                        <div>Type</div>
+                        <select name="options" data-attribute="6" class="bg-transparent">
+                            <option value="10">Disk</option>
+                        </select>
+                    </div>
+                    <div class="count">
+                        <div class="flex flex-row items-center">
+                            <span>Ədəd: </span> <input type="number" min="1" max="10" class="ml-2 p-1 border rounded">
+                        </div>
+                        <div class="price">45 ₼</div>
+                    </div>
+                    <div class="add_btn">
+                        Əlavə edin
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-md-4">
+            <div class="card">
+                <div class="image">
+                    <img src="https://cdn.iticket.az/product_variation/gallery/cV4IF7eHONbdn5cdWAOhAkY2Qkr4HbRd.png"
+                         data-src="https://cdn.iticket.az/product_variation/gallery/cV4IF7eHONbdn5cdWAOhAkY2Qkr4HbRd.png" class=" ls-is-cached lazyloaded">
+                </div>
+                <div class="info">
+                    <div class="name">
+                        <div>
+                            Isfar Sarabski Vinil - 2 Ədəd Daxildir
+                        </div>
+                    </div>
+                    <div class="type">
+                        <div>Type</div>
+                        <select name="options" data-attribute="6" class="bg-transparent">
+                            <option value="11">Vinil</option>
+                        </select>
+                    </div>
+                    <div class="count">
+                        <div class="flex flex-row items-center">
+                            <span>Ədəd: </span> <input type="number" min="1" max="10" class="ml-2 p-1 border rounded">
+                        </div>
+                        <div class="price">45 ₼</div>
+                    </div>
+                    <div class="add_btn">
+                        Əlavə edin
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of the box -->
+@await Component.InvokeAsync("LoadMore")
+
+@await Component.InvokeAsync("BasketSecond")

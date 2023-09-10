@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom_container{
+    width: 1330px;
+    margin: 0 auto;
+}
+
+body{
+
+    font-family: Arial, sans-serif;
+    background-color: #e5e7eb;
+
+    .basket-main{
+        
+        width: 100%;
+        max-width: 1256px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-bottom: 1.25rem;
+        padding-top: 1.75rem;
+    
+        #basket-left{
+            width: 75%;
+            .basket-left-tittle{
+                font-size: 1.875rem;
+                font-weight: 500;
+                margin-bottom: 1.25rem;
+                line-height: 1.1;
+            }
+            .baslet-left-main{
+    
+                .basket-left-top{
+                    margin: 4rem 0;
+                }
+    
+                .basket-left-button-tittle{
+                    font-size: 1.875rem;
+                    font-weight: 500;
+                    margin-bottom: 1.25rem;
+                    line-height: 1.1;
+                }
+                   
+                .delivery{
+                    img{
+                        margin-right: 2rem;
+                        width: 2.25rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                        font-weight: 600;
+                        line-height: 1.25;
+                    }
+                }
+                
+                #delivery-tittle{
+                    margin: 4rem 0;
+                }
+                #delivery-box{
+                    border: 4px solid #fd0;
+                    padding: 1rem;
+                    border-radius: 1rem;
+                }
+                
+                #img-basket{
+                    width: 96px;
+                    height: 96px;
+                }
+                #basket-item-location{
+                    color: #6b7280;
+                    font-size: .875rem;
+                    line-height: 1.25rem;
+                    margin-left: 1.5rem;
+                }
+                
+                .basket-item-name{
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    line-height: 2rem;
+                    margin-left: 1.5rem;
+                }
+                .basket-item-ticket-info{
+                    font-size: 14px;
+                    margin-left: 1.5rem;
+                }
+                
+                #basket-pricetype{
+                    background-color: #fd0;
+                    border-radius: 0.75rem;
+                    padding: 0.55rem;
+                    text-align: center;
+                    width: 12rem;
+                    height: 7rem;
+                
+                    p{
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        line-height: 2rem;
+                    }
+                
+                    span{
+                        color: #6B7280;
+                    }
+                }
+            
+                button.basketdeleted{
+                    background: none;
+                    color: white ;
+                    font-weight: 900;
+                    overflow: auto;
+                    border: 0 solid white;
+                    margin-left: 0.5rem;
+                }
+                .basket-item-deleted{
+                    border-radius: 9999px;
+                    height: 50px;
+                    padding: 0.5rem;
+                    width: 50px;
+                    background-color: #ff8787;
+                    margin: 2rem 1rem;
+                    i{
+                        color: white;
+                        width: 100%;
+                        height: 100%;
+                
+                    }
+                }
+            }
+        }
+    
+        #basket-right{
+            border-left: 1px solid #ececec;
+    
+            .basket-right-tittle{
+                margin-left: 1rem;
+    
+                span{
+                    color: #6b7280;
+                    font-weight: 500;
+                    margin-bottom: 2rem;
+                }
+    
+                p{
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                    line-height: 1.75rem;
+                    margin-bottom: 2.5rem;
+                    margin-top: 2rem;
+                }
+            }
+    
+            .basket-right-main{
+                margin-left: 1rem;
+    
+                span{
+                    color: #6b7280;
+                    font-weight: 500;
+                    margin-top: 1rem;
+                    margin-bottom: 2rem;
+                }
+    
+                input{
+                    margin-top: 1rem;
+                    border: 1px solid #e1e1e1;
+                    border-radius: 10px;
+                    padding: 0.75rem 2rem;
+                    width: 100%;
+                }
+    
+                a{
+                    text-decoration: none;
+                    color: #3065ff;
+                    cursor: pointer;
+                    font-weight: 500;
+                }
+    
+                #checkox{
+                    height: 1rem;
+                    width: 1rem;
+                }
+    
+                #checkbox-text{
+                    margin: 0 .5rem;
+                    color: black;
+                }
+    
+                #promocode-tittle{
+                    margin-top: 5rem;
+                }
+                .total-price{
+                    margin-top: 5rem;
+                }
+                #price{
+                    margin-left: 10rem;
+                }
+    
+                button{
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                    line-height: 1.75rem;
+                    padding: 1rem 1.25rem;
+                    text-align: center;
+                    background-color: #fd0;
+                    border-radius: 0.5rem;
+                    border-color: white;
+                    margin: 1rem 3rem;
+                }
+    
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+    

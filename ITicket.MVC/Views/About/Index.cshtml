@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!-- Main -->
+<div class="custom_container">
+    <div class="div_main">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="div_left">
+                    <div class="title">
+                        <img src="~/assets/image/about-title.png" alt="">
+                    </div>
+                    <div class="map">
+                        <img src="~/assets/image/3d-map.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h6>
+                            <b>iTicket.az</b> - 2016-cı ildən etibarən öz fəaliyyətinə başlamışdır.
+                            iTicket.az həm onlayn həm də offlayn olaraq konsertlərə, teatrlara,
+                            idman və əyləncə tədbirlərinə bilet satışını reallaşdırır. Bakı şəhərində
+                            20-yə yaxın satış nöqtəsi iTicket.az idarəçiliyi altında fəaliyyət göstərir.
+                            iTicket.az IV İslam Həmrəyliyi Oyunları, 2017, 2018 və 2019 Formula 1 Azərbaycan
+                            Qran-Pri yarışları, 2017 Voleybol üzrə qadınlararası Avropa Çempionatı, UEFA Çempionlar
+                            Liqasının qrup mərhələsi, Bakıda velosiped idmanının “BMX Racing” növü üzrə 2018-ci il dünya
+                            çempionatı, ЖАРА'18 və 19 musiqi festivalı və AFFA kimi tədbirlərin rəsmi əməkdaşı və bilet
+                            satışı üzrə təchizatçısıdır. iTicket.az bilet alışı prosessinin daha səmərəli və rahat etmək
+                            üçün öz məhsul və xidmətlərini təkmilləşdirmək üçün çalışır.
+                        </h6>
+                        <dl class="requisite">
+                            <dt>Şirkətin adı</dt>
+                            <dd>«İTİCKET» MMC</dd>
+
+                            <dt>VÖEN</dt>
+                            <dd>1701956271</dd>
+
+                            <dt>Dövlət Reyestr Çıxarışın nömrəsi</dt>
+                            <dd>1601020018130100</dd>
+
+                            <dt>Ünvan</dt>
+                            <dd>Azərbaycan, Bakı, Səməd Vurğun 34, AF Mall 14-cü mərtəbə, ofis 36 AZ1014</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                @await Component.InvokeAsync("RightNav")
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of the main -->
+
+
+@await Component.InvokeAsync("BasketSecond")

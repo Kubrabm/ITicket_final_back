@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!-- Main -->
+<div class="custom_container">
+    <div class="div_main">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="div_left">
+                    <div class="info_box" id="info_box">
+                        <p>
+                            <a style="color: blue;" href="https://iticket.az/az/page/faq">«Ən çox verilən suallar»</a>
+                            bölməsində suallarınıza cavab tapa bilmədiyiniz halda
+                            <a style="color: blue;" href="tel:+994124242424">+994 12 424 24 24</a>
+                            nömrəsi ilə əlaqə saxlayaraq «Müştəri xidmətləri» komandamızla əlaqə saxlayın.
+                            Bütün qeyd və təkliflərinizi  elektron poçt ünvanımıza yaza bilərsiniz:
+                            <a style="color: blue;" href="mailto:info@iticket.az">info@iticket.az</a>.
+                        </p>
+
+                        <dl class="uk-description-list">
+                            <dt>
+                                <p>
+                                    MÜŞTƏRİ XİDMƏTLƏRİMİZ HƏR GÜN 24 SAAT XİDMƏTİNİZDƏDİR.
+                                </p>
+                            </dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                @await Component.InvokeAsync("RightNav")
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of the main -->
+
+
+@await Component.InvokeAsync("BasketSecond")

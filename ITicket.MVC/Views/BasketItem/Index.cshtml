@@ -1,0 +1,135 @@
+﻿@using ITicket.MVC.ViewModels;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    BasketItemViewModel model = Model;
+    var events = model.BasketItems;
+
+}
+
+<!-- Basket -->
+<div class="custom_container">
+    <div class="basket-main">
+        <div class="row">
+            <div class="col-lg-9" id="basket-left">
+                <div class="basket-left-tittle">
+                    Səbət
+                </div>
+                <div class="baslet-left-main">
+                    <div class="basket-left-top">
+                        <div class="row">
+                            <div class="col-lg-1">
+                                <div class="basket-item-img">
+                                    <img id="img-basket" src="~/assets/image/iremderici.png"
+                                         style="background-image: url(https://cdn.iticket.az/event/poster_bg/dgl39HChtHLaEK7zlJ0CzRHccM1Ddc40s1ivHCnD.jpg);"
+                                         alt="img" draggable="false">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="basket-item-info">
+                                    <span id="basket-item-location">BOS /<span id="basket-item-time&date">19:00, 02.09.23</span></span>
+                                </div>
+                                <div class="basket-item-name">
+                                    <p>IMAGINE DRAGONS</p>
+                                </div>
+                                <div class="basket-item-ticket-info">
+                                    <p>Ultimate Imagine Dragons VIP Experience</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-4" id="basket-pricetype">
+                                        <div class="basket-item-price">
+                                            <p>
+                                                1100
+                                                <i class="fa-solid fa-manat-sign"></i>
+                                            </p>
+                                        </div>
+                                        <div class="basket-item-ticket-type">
+                                            <span>Ultimate VIP Experience</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="basket-item-deleted">
+                                            <button class="basketdeleted">
+                                                <i class="fa-regular fa-trash-can"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket-left-button">
+                        <div class="basket-left-button-tittle">
+                            <p id="delivery-tittle">Çatdırılma üsulunu seçin</p>
+                        </div>
+                        <div class="basket-left-button-main">
+                            <div class="row">
+                                <div class="col-lg-3" id="delivery-box">
+                                    <div class="delivery">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="~/assets/image/detail/delivery_1.svg" alt="">
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p>Elektron bilet və ya vauçer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="delivery">
+                                        <div class="row">
+                                            <div class="col-lg-2">
+                                                <img src="~/assets/image/detail/delivery_2.svg" alt="">
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p>Şəhərin satış məntəqələrində</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3" id="basket-right">
+                <div class="basket-right-tittle">
+                    <span>Çatdırılma üsulu</span>
+                    <p>Elektron bilet və ya vauçer (PDF formatında)</p>
+                </div>
+                <div class="basket-right-main">
+                    <span>İstifadəçi Məlumatları</span>
+                    <input type="text" placeholder="Ad">
+                    <input type="text" placeholder="Soyad">
+                    <input type="tel" placeholder="Telefon nömrəsi">
+                    <input type="text" placeholder="E-poçt">
+                    <span id="promocode-tittle">Promokod</span>
+                    <div class="promocode">
+                        <a href="">Promo kodum var</a>
+                        <input type="text" name="" id="" placeholder="PROMO">
+                    </div>
+                    <div class="total-price">
+                        <span>
+                            Cəmi
+                            <span id="price">
+                                20
+                                <span>
+                                    <i class="fa-solid fa-manat-sign"></i>
+                                </span>
+                            </span>
+                        </span>
+                    </div>
+                    <input id="checkox" type="checkbox" name="" id=""><span id="checkbox-text">Şərtləri və qaydaları qəbul edirəm.</span>
+                    <button>Sifariş yarat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of the basket -->
