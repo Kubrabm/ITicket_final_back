@@ -1,0 +1,58 @@
+﻿@model Kid;
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Img
+                                </th>
+                                <th>
+                                    Name
+                                </th>
+                                <th>
+                                    Location
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                                <th>
+                                    Date
+                                </th>
+                                <th>
+                                    Event Id
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-1">
+                                    <img src="~/assets/image/@Model.ImgUrl" alt="image" />
+                                </td>
+                                <td>
+                                    @Model.Name
+                                </td>
+                                <td>
+                                    @Model.Location
+                                </td>
+                                <td>
+                                    @Model.Price
+                                </td>
+                                <td>
+                                    @Model.Date
+                                </td>
+                                <td>
+                                    @Model.EeventId
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

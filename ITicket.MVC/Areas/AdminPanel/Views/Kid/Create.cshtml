@@ -1,0 +1,54 @@
+﻿@model Kid
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title"> Kid Create</h4>
+            <form class="forms-sample" method="post">
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control" id="exampleInputName1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImgUrl">Img Url</label>
+                    <input asp-for="ImgUrl" class="form-control" id="exampleInputName1" placeholder="Img Url">
+                </div>
+                <div class="form-group">
+                    <label asp-for="BgImgUrl">Bg Img Url</label>
+                    <input asp-for="BgImgUrl" class="form-control" id="exampleInputName1" placeholder="Bg Img Url">
+                </div>
+                <div class="form-group">
+                    <label asp-for="DetailPageImg">Detail Page Img</label>
+                    <input asp-for="DetailPageImg" class="form-control" id="exampleInputName1" placeholder="Detail Page Img">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Date">Date</label>
+                    <input asp-for="Date" class="form-control" id="exampleInputName1" placeholder="Date">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Location">Location</label>
+                    <input asp-for="Location" class="form-control" id="exampleInputName1" placeholder="Location">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price">Price</label>
+                    <input asp-for="Price" class="form-control" id="exampleInputName1" placeholder="Price">
+                </div>
+                <div class="form-group">
+                    <label asp-for="EeventId">Eevent Id</label>
+                    <input asp-for="EeventId" class="form-control" id="exampleInputName1" placeholder="Eevent Id">
+                </div>
+
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <button class="btn btn-light" asp-action="index">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
