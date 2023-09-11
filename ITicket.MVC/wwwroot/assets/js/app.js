@@ -220,8 +220,24 @@ const datePicker = document.getElementById("datePicker");
 
 
 
+ 
 
+var boxes = document.querySelectorAll(' #boxrow .box');
+    
+var visibleBoxCount = 9;
 
+function loadMoreBoxes() {
+    for (var i = 0; i < boxes.length; i++) {
+        if (i < visibleBoxCount) {
+            boxes[i].style.display = 'block';
+        } else {
+            boxes[i].style.display = 'none';
+        }
+    }
+    visibleBoxCount += 9;
 
+}
 
+document.getElementById('load-more').addEventListener('click', loadMoreBoxes);
 
+window.addEventListener('load', loadMoreBoxes);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d3xz1ETv3xFjsB3By8Zvjkq/aYN6onNPfEiUMXQTDCI=",
+  "Hash": "5MRmlal6RRxf1YM1f/RNG+DpHVBtJJo9CFwcDEsZGuM=",
   "Source": "ITicket.MVC",
   "BasePath": "_content/ITicket.MVC",
   "Mode": "Default",
@@ -2805,6 +2805,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\age.svg"
     },
     {
+      "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\alon_detail.jpg",
+      "SourceId": "ITicket.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\",
+      "BasePath": "_content/ITicket.MVC",
+      "RelativePath": "assets/image/alon_detail.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\image\\alon_detail.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\android.png",
       "SourceId": "ITicket.MVC",
       "SourceType": "Discovered",
@@ -4046,23 +4063,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\seminar9.png"
     },
     {
-      "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\sqrxjX80NtUXY8xQvHiadSSV61i8AW13lNnyFuoa.jpg",
-      "SourceId": "ITicket.MVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\",
-      "BasePath": "_content/ITicket.MVC",
-      "RelativePath": "assets/image/sqrxjX80NtUXY8xQvHiadSSV61i8AW13lNnyFuoa.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\image\\sqrxjX80NtUXY8xQvHiadSSV61i8AW13lNnyFuoa.jpg"
-    },
-    {
       "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\slider_photo1.jpg",
       "SourceId": "ITicket.MVC",
       "SourceType": "Discovered",
@@ -4554,6 +4554,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\wrapper.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\zoo.png",
+      "SourceId": "ITicket.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\",
+      "BasePath": "_content/ITicket.MVC",
+      "RelativePath": "assets/zoo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\zoo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\zoobg.jpg",
+      "SourceId": "ITicket.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\",
+      "BasePath": "_content/ITicket.MVC",
+      "RelativePath": "assets/zoobg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\zoobg.jpg"
     }
   ]
 }

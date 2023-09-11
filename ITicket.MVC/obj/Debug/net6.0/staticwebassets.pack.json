@@ -657,6 +657,10 @@
       "PackagePath": "staticwebassets\\assets\\image\\age.svg"
     },
     {
+      "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\alon_detail.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\alon_detail.jpg"
+    },
+    {
       "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\android.png",
       "PackagePath": "staticwebassets\\assets\\image\\android.png"
     },
@@ -1005,10 +1009,6 @@
       "PackagePath": "staticwebassets\\assets\\image\\sport7.png"
     },
     {
-      "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\sqrxjX80NtUXY8xQvHiadSSV61i8AW13lNnyFuoa.jpg",
-      "PackagePath": "staticwebassets\\assets\\image\\sqrxjX80NtUXY8xQvHiadSSV61i8AW13lNnyFuoa.jpg"
-    },
-    {
       "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\image\\tickets.svg",
       "PackagePath": "staticwebassets\\assets\\image\\tickets.svg"
     },
@@ -1067,6 +1067,14 @@
     {
       "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\wrapper.js",
       "PackagePath": "staticwebassets\\assets\\js\\wrapper.js"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\zoo.png",
+      "PackagePath": "staticwebassets\\assets\\zoo.png"
+    },
+    {
+      "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\zoobg.jpg",
+      "PackagePath": "staticwebassets\\assets\\zoobg.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ITicket.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
