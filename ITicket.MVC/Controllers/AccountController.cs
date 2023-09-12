@@ -41,6 +41,7 @@ namespace ITicket.MVC.Controllers
                 FirstName=model.FullName,
                 UserName=model.UserName,
                 Email=model.Email,
+                PhoneNumber=model.PhoneNumber
             };
 
 

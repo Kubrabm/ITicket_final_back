@@ -55,8 +55,9 @@
 
             @if (User.Identity.IsAuthenticated)
             {
-                <a style="color:aliceblue">@User.Identity.Name</a>
-                <a style="color:aliceblue" asp-controller="account" asp-action="logout">Logout</a>
+                <a style="color:black">@User.Identity.Name</a>
+
+                <a style="color:black" asp-controller="account" asp-action="logout">Çıxış</a>
             }
 
             <div class="right_side">
@@ -96,131 +97,6 @@
                     <i class="fa-regular fa-user"></i>
                 </button>
 
-                <!-- The Modal Register -->
-                <div id="login_modal" class="login d-none">
-                    <span class="close" id="close_login">
-                        &times;
-                    </span>
-                    <form class="login-content animate" id="login-content">
-                        <div class="login_main" id="login_main">
-                            <div class="row" id="tittle">
-                                <div class="col-lg-6">
-                                    <p>Daxil ol</p>
-                                </div>
-                                <div class="col-lg-6">
-                                    <i id="facebook" class="fa-brands fa-facebook"></i>
-                                    <i id="google" class="fa-brands fa-google-plus"></i>
-                                </div>
-                            </div>
-                            <form>
-                                <div id="login_form" class="bg-white p-4 mb-4 font-medium rounded-md shadow-md hidden">
-                                    <div class="form-group">
-                                        <input type="text" name="login" placeholder="E-poçt və ya telefon nömrəsi">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" name="password" placeholder="Şifrə">
-                                        <a href="#" id="forget" class="forget">Unutmusunuz?</a>
-                                    </div>
-                                    <div class="form-group">
-                                        <button id="login_btn" type="submit" class="btn">
-                                            Daxil ol
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="modal-footer" id="modal-footer">
-                                iTicket.AZ-da yenisiniz?
-                                <a href="#" class="registration">
-                                    Qeydiyyatdan keçin
-                                </a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <!-- End of the register -->
-                <!-- The Modal Forget Password -->
-                <div id="forget_modal" class="forgetpassword d-none">
-                    <span class="close" id="close_forget">
-                        &times;
-                    </span>
-                    <form class="forget-content animate" id="forget-content">
-
-                        <div id="forget_main" class="forget_main d-block">
-                            <form>
-                                <p id="tittle">Şifrəni sıfırla</p>
-                                <div id="forget_form" class="bg-white p-4 mb-4 font-medium rounded-md shadow-md hidden"></div>
-                                <div class="form-group">
-                                    <input type="text" name="login" placeholder="E-poçt və ya telefon nömrəsi">
-                                </div>
-                                <div class="form-group">
-                                    <button id="reset_btn" type="submit" class="btn">
-                                        Sıfırla
-                                    </button>
-                                </div>
-                                <div class="modal-footer">
-                                    Şifrənizi xatırlayırsınız?
-                                    <a href="#" class="callback">
-                                        Daxil ol
-                                    </a>
-                                </div>
-                            </form>
-                        </div>
-                    </form>
-                </div>
-                <!-- End of the forget password -->
-                <!-- The Modal Sign Up -->
-                <div id="signin_modal" class="signin d-none">
-                    <span class="close_signin" id="close_signin">
-                        &times;
-                    </span>
-                    <form class="signin-content animate" id="signin-content">
-
-                        <div id="signin_main" class="signin_main d-block">
-                            <div class="row" id="tittle">
-                                <div class="col-lg-6">
-                                    <p>Qeydiyyat</p>
-                                </div>
-                                <div class="col-lg-6">
-                                    <i id="facebook" class="fa-brands fa-facebook"></i>
-                                    <i id="google" class="fa-brands fa-google-plus"></i>
-                                </div>
-                            </div>
-                            <form>
-                                <div id="signinin_form" class="bg-white p-4 mb-4 font-medium rounded-md shadow-md hidden"></div>
-                                <div class="form-group">
-                                    <input type="text" name="signin" placeholder="Ad">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="signin" placeholder="Soyad">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="signin" placeholder="Mobil">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="signin" placeholder="E-poçt">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="signin" placeholder="Şifrə">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="signin" placeholder="Şifəni təsdqləyin">
-                                </div>
-                                <div class="form-group">
-                                    <button id="signin_btn" type="submit" class="btn">
-                                        Qeydiyyat
-                                    </button>
-                                </div>
-                                <div class="modal-footer">
-                                    Artıq qeydiyyatdan keçmisiniz?
-                                    <a id="returnlog" href="#" class="callback">
-                                        Daxil olun
-                                    </a>
-                                </div>
-                            </form>
-                        </div>
-                    </form>
-                </div>
-                <!-- End of the sign up -->
             </div>
 
             <div class="navbar_options d-none">
