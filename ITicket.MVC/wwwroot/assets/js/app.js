@@ -222,14 +222,14 @@ const datePicker = document.getElementById("datePicker");
 
  
 
-var boxes = document.querySelectorAll(' #boxrow .box');
+var boxes = document.querySelectorAll('.row .box');
     
 var visibleBoxCount = 9;
 
 function loadMoreBoxes() {
     for (var i = 0; i < boxes.length; i++) {
         if (i < visibleBoxCount) {
-            boxes[i].style.display = 'block';
+            boxes[i].style.display = 'flex';
         } else {
             boxes[i].style.display = 'none';
         }

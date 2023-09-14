@@ -5,84 +5,78 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ITicket.MVC.Areas.AdminPanel.Data;
 using ITicket.MVC.Services;
+using IMailService = ITicket.MVC.Services.IMailService;
 
+var builder = WebApplication.CreateBuilder(args);
 
-public class Program
+builder.Services.AddRazorPages();
+
+Constants.ImagePath = Path.Combine(builder.Environment.WebRootPath, "assets/image");
+
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    public static async Task Main(string[] args)
-    {
-        var builder = WebApplication.CreateBuilder(args);
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), builder => builder.MigrationsAssembly("ITicket.DAL"));
+});
 
-        builder.Services.AddControllersWithViews();
 
-        builder.Configuration.AddJsonFile("appsettings.json");
-        var configuration = builder.Configuration;
 
-        //Constants.ImagePath = Path.Combine(builder.Environment.WebRootPath, "img");
+builder.Services.Configure<MailSetting>(builder.Configuration.GetSection("MailSettings"));
 
-        var connectionString = configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddTransient<IMailService, GmailManager>();
 
-        builder.Services.AddDbContext<AppDbContext>(options =>
-        {
-            options.UseSqlServer(connectionString, b => b.MigrationsAssembly("Iticket.DAL"));
-        });
+builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+{
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
 
-        builder.Services.Configure<MailSetting>(configuration.GetSection("MailSettings"));
+    options.User.RequireUniqueEmail = true;
 
-        builder.Services.AddTransient<IMailService, GmailManager>();
+    options.SignIn.RequireConfirmedPhoneNumber = false;
+    options.SignIn.RequireConfirmedEmail = true;
 
-        builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
-        {
-            options.Password.RequireNonAlphanumeric = false;
-            options.Password.RequireUppercase = false;
-            options.Password.RequireLowercase = false;
+    options.Lockout.MaxFailedAccessAttempts = 3;
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(3);
+    options.Lockout.AllowedForNewUsers = true;
 
-            options.User.RequireUniqueEmail = true;
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
-            options.SignIn.RequireConfirmedPhoneNumber = false;
-            options.SignIn.RequireConfirmedEmail = false;
+var app = builder.Build();
 
-            options.Lockout.MaxFailedAccessAttempts = 3;
-            options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(2);
-            options.Lockout.AllowedForNewUsers = true;
+using (var scope = app.Services.CreateScope())
+{
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-        }).AddEntityFrameworkStores<AppDbContext>()
-          .AddDefaultTokenProviders().AddErrorDescriber<LocalizeIdentityError>();
-        var app = builder.Build();
+    var dataInitializer = new DataInitializer(userManager, roleManager, dbContext);
+    await dataInitializer.SeedData();
+};
 
-        using (var scope = app.Services.CreateScope())
-        {
-            var userManager = scope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
-            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-            var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-
-            var dataInitializer = new DataInitializer(userManager, roleManager, dbContext);
-            await dataInitializer.SeedData();
-
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-                app.UseHsts();
-            }
-        }
-
-        app.UseStaticFiles();
-
-        app.UseRouting();
-
-        app.UseAuthentication();
-        app.UseAuthorization();
-        app.UseEndpoints(endpoints =>
-        {
-            endpoints.MapControllerRoute(
-               name: "areas",
-               pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
-            );
-
-            endpoints.MapControllerRoute("default", "{controller=home}/{action=index}/{id?}");
-        });
-
-        app.Run();
-    }
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
 }
 
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthentication();
+
+app.UseAuthorization();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=dashboard}/{action=index}/{id?}"
+          );
+
+    endpoints.MapControllerRoute("default", "{controller=home}/{action=index}/{id?}");
+});
+
+app.MapRazorPages();
+
+app.Run();

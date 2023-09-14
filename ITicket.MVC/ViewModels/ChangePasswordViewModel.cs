@@ -4,11 +4,12 @@ namespace ITicket.MVC.ViewModels
 {
     public class ChangePasswordViewModel
     {
-        [DataType(DataType.Password)]
-        public string CurrentPaswword { get; set; }
+        public string CurrentPassword { get; set; }
         [DataType(DataType.Password)]
         public string NewPassword { get; set; }
         [DataType(DataType.Password),Compare(nameof(NewPassword))]
         public string ConfirmPassword { get; set; }
+
     }
+    
 }

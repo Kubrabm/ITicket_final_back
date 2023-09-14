@@ -1,6 +1,5 @@
 ﻿using ITicket.DAL.DataContext;
 using ITicket.DAL.Entites;
-using ITicket.MVC.Areas.AdminPanel.Models;
 using ITicket.MVC.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,9 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ITicket.MVC.Areas.AdminPanel.Controllers
 {
-    [Area("AdminPanel")]
-    //[Authorize(Roles = "Admin")]
-    public class KidController:Controller
+    public class KidController:AdminController
     {
         private readonly AppDbContext _dbContext;
 

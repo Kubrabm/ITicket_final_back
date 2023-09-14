@@ -1041,6 +1041,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\basket.js"
     },
     {
+      "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\basketsecond.js",
+      "PackagePath": "staticwebassets\\assets\\js\\basketsecond.js"
+    },
+    {
       "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\buyticket.js",
       "PackagePath": "staticwebassets\\assets\\js\\buyticket.js"
     },

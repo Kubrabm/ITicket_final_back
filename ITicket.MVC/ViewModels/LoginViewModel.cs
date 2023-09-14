@@ -1,8 +1,12 @@
-﻿namespace ITicket.MVC.ViewModels
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ITicket.MVC.ViewModels
 {
     public class LoginViewModel
     {
-        public string UserName { get; set; }
+        [Required]
+        public string Username { get; set; }
+        [DataType(DataType.Password)]
         public string Password { get; set; }
     }
 }

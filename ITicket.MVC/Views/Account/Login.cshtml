@@ -53,8 +53,8 @@
                             <div class="text-danger" asp-validation-summary="ModelOnly"></div>
                             <form class="pt-3" asp-action="login" method="post">
                                 <div class="form-group">
-                                    <input asp-for="UserName" class="form-control" placeholder="İstifadəçi adı">
-                                    <span asp-validation-for="UserName"></span>
+                                    <input asp-for="Username" class="form-control" placeholder="İstifadəçi adı">
+                                    <span asp-validation-for="Username"></span>
                                 </div>
                                 <div class="form-group">
                                     <input asp-for="Password" class="form-control" placeholder="Şifrə">
@@ -64,7 +64,7 @@
                                     <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" >Daxil ol</button>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
-                                    <a asp-controller="account" asp-action="changepassword" class="text-primary">Şifrəni unutmusunuz?</a>
+                                    <a asp-controller="account" asp-action="forgottenpassword" class="text-primary">Şifrəni unutmusunuz?</a>
                                 </div>
                                 <div class="text-center mt-4 font-weight-light">
                                     iTicket.AZ-da yenisiniz? <a asp-controller="account" asp-action="register" class="text-primary">Qeydiyyatdan keçin </a>

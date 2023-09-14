@@ -23,4 +23,8 @@
     <ProjectReference Include="..\ITicket.DAL\ITicket.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\AdminPanel\Models\" />
+  </ItemGroup>
+
 </Project>

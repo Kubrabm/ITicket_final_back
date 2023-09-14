@@ -3,9 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ITicket.MVC.Areas.AdminPanel.Controllers
 {
-    [Area("AdminPanel")]
-    //[Authorize(Roles = "Admin")]
-    public class DashboardController : Controller
+    public class DashboardController : AdminController
     {
         public IActionResult Index()
         {

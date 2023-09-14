@@ -16,13 +16,13 @@ namespace ITicket.MVC.Services
             _mailSetting = mailSetting.Value;
         }
 
-        public async Task SendPasswordResetEmailAsync(RequestEmail requestEmail)
+        public async Task SendEmailAsync(RequestEmail requestEmail)
         {
             try
             {
                 var email = new MimeMessage
                 {
-                    Sender = MailboxAddress.Parse(_mailSetting.Mail)
+                    Sender = MailboxAddress.Parse(_mailSetting.Email)
                 };
 
                 email.To.Add(MailboxAddress.Parse(requestEmail.ToEmail));
@@ -37,7 +37,7 @@ namespace ITicket.MVC.Services
 
                 using var smtp = new SmtpClient();
                 smtp.Connect(_mailSetting.Host, _mailSetting.Port, SecureSocketOptions.StartTls);
-                smtp.Authenticate(_mailSetting.Mail, _mailSetting.Password);
+                smtp.Authenticate(_mailSetting.Email, _mailSetting.Password);
 
                 await smtp.SendAsync(email);
 
@@ -50,4 +50,6 @@ namespace ITicket.MVC.Services
             }
         }
     }
+
+
 }

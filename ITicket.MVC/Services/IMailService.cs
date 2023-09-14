@@ -4,6 +4,6 @@ namespace ITicket.MVC.Services
 {
     public interface IMailService
     {
-        Task SendPasswordResetEmailAsync(RequestEmail requestEmail);
+        Task SendEmailAsync(RequestEmail requestEmail);
     }
 }

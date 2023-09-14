@@ -1393,7 +1393,7 @@ body .box button {
   right: 10px;
   transition: 0.2s;
 }
-body .box:hover .box img {
+body .box:hover .img img {
   margin-bottom: 8rem;
   overflow: visible;
 }
