@@ -1033,6 +1033,10 @@
       "PackagePath": "staticwebassets\\assets\\image\\venue.svg"
     },
     {
+      "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\Class.cs1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Class.cs1.js"
+    },
+    {
       "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\app.js",
       "PackagePath": "staticwebassets\\assets\\js\\app.js"
     },

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ITicket.DAL.Entites
 {
-    public class BasketItem:TimeStample
+    public class BasketItem : TimeStample
     {
         public string Name { get; set; }
         public string ImgUrl { get; set; }

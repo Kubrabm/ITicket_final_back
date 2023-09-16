@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ISNqh2u+cXSzI1GJXcOmO0I4pB1QKBRErBCt4ZZTG90=",
+  "Hash": "E0lcjbiEXbuPVqR08NbOqQi853t7B5OuDTVydvBleas=",
   "Source": "ITicket.MVC",
   "BasePath": "_content/ITicket.MVC",
   "Mode": "Default",
@@ -4469,6 +4469,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\buyticket.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\Class.cs1.js",
+      "SourceId": "ITicket.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\",
+      "BasePath": "_content/ITicket.MVC",
+      "RelativePath": "assets/js/Class.cs1.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\Class.cs1.js"
     },
     {
       "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\faq.js",

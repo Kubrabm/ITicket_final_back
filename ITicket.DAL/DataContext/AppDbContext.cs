@@ -38,6 +38,7 @@ namespace ITicket.DAL.DataContext
         public DbSet<Tourism> Tourisms { get; set; }
         public DbSet<Weekend> Weekends { get; set; }
         public DbSet<BasketSecond> BasketSeconds { get; set;}
+        public DbSet<Like> Likes { get; set; }
         public DbSet<LoadMore> LoadMores { get; set; }
         public DbSet<SellectBtn> SellectBtns { get; set;}
         public DbSet<RightNav> RightNavs { get; set; }

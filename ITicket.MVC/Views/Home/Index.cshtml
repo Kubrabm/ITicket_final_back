@@ -122,7 +122,7 @@
 
 
                     <div class="right_side">
-                        <a id="like" href="~/likes/index">
+                        <a id="like" href="~/like/index">
                             <i class="fa-regular fa-heart"></i>
                         </a>
 
@@ -703,7 +703,6 @@
             </div>
         </div>
         <!-- End of the responsive footer -->
-
         <!-- Basketsecond -->
         <div class="custom_container">
             <button class="basketsecondbtn" id="basketsecondbtn">
@@ -728,81 +727,92 @@
                         <div class="tittle" id="tittle">
                             <p>Səbət</p>
                         </div>
-                        <div class="basket-main">
-                            <div class="basket-left-top">
-                                <div class="row">
-                                    <div class="col-lg-2">
-                                        <div class="basket-item-img">
-                                            <img id="img-basket" src="assets/image/iremderici.png"
-                                                 style="background-image: url(./assets/image/iremderici_bg.jpg);"
-                                                 alt="img" draggable="false">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="basket-item-info">
-                                            <span id="basket-item-location">BOS /<span id="basket-item-time&date">19:00, 02.09.23</span></span>
-                                        </div>
-                                        <div class="basket-item-name">
-                                            <p>IMAGINE DRAGONS</p>
-                                        </div>
-                                        <div class="basket-item-ticket-info">
-                                            <p>Ultimate Imagine Dragons VIP Experience</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="row">
-                                            <div class="col-lg-6" id="basket-pricetype">
-                                                <div class="basket-item-price">
-                                                    <p>
-                                                        1100
-                                                        <i class="fa-solid fa-manat-sign"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="basket-item-ticket-type">
-                                                    <span> VIP </span>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="basket-item-deleted">
-                                                    <button class="basketdeleted">
-                                                        <i class="fa-regular fa-trash-can"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <section class="products_chart">
+                            <div class="container">
+                                <div class="alert">
+                                    <h1> Səbət boşdur...</h1>
+                                </div>
+                                <div class="chart d-none">
+                                    <div class="row" id="save_products">
                                     </div>
                                 </div>
-                            </div>
+                        </section>
+                        @*                <div class="basket-main">
+                        <div class="basket-left-top">
+                        <div class="row">
+                        <div class="col-lg-2">
+                        <div class="basket-item-img">
+                        <img id="img-basket" src="assets/image/iremderici.png"
+                        style="background-image: url(./assets/image/iremderici_bg.jpg);"
+                        alt="img" draggable="false">
+                        </div>
+                        </div>
+                        <div class="col-lg-6">
+                        <div class="basket-item-info">
+                        <span id="basket-item-location">BOS /<span id="basket-item-time&date">19:00, 02.09.23</span></span>
+                        </div>
+                        <div class="basket-item-name">
+                        <p>IMAGINE DRAGONS</p>
+                        </div>
+                        <div class="basket-item-ticket-info">
+                        <p>Ultimate Imagine Dragons VIP Experience</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-md-4">
+                        <div class="row">
+                        <div class="col-lg-6" id="basket-pricetype">
+                        <div class="basket-item-price">
+                        <p>
+                        1100
+                        <i class="fa-solid fa-manat-sign"></i>
+                        </p>
+                        </div>
+                        <div class="basket-item-ticket-type">
+                        <span> VIP </span>
+                        </div>
+                        </div>
+                        <div class="col-lg-6">
+                        <div class="basket-item-deleted">
+                        <button class="basketdeleted">
+                        <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
                         </div>
                         <hr>
                         <div class="total-price">
-                            <p>Cəmi <span>10</span> <i class="fa-solid fa-manat-sign"></i></p>
+                        <p>Cəmi <span>10</span> <i class="fa-solid fa-manat-sign"></i></p>
                         </div>
                         <div class="basket-item-deleted">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <button class="subscribe" id="basketdeleted">
-                                        <i class="fa-regular fa-trash-can"></i>
-                                        Səbəti təmizlə
-                                    </button>
-                                </div>
-                                <div class="col-lg-6">
-                                    <button class="subscribe" id="baskettobasket"><a href="~/basket/index"> Səbət</a></button>
-
-                                </div>
-                            </div>
+                        <div class="row">
+                        <div class="col-lg-6">
+                        <button class="subscribe" id="basketdeleted">
+                        <i class="fa-regular fa-trash-can"></i>
+                        Səbəti təmizlə
+                        </button>
                         </div>
+                        <div class="col-lg-6">
+                        <button class="subscribe" id="baskettobasket"><a href="./basket.html"> Səbət</a></button>
+
+                        </div>
+                        </div>
+                        </div>*@
                     </div>
                 </form>
             </div>
             <!-- End of the basketecond -->
         </div>
-        <!-- End of the responsive basketsecond -->
+        <!-- End of the  basketsecond -->
 
     </div>
 
     <script src="~/assets/js/app.js"></script>
     <script src="~/assets/js/basket.js"></script>
+    <script src="~/assets/js/basketsecond.js"></script>
     <script src="~/assets/js/buyticket.js"></script>
     <script src="~/assets/js/faq.js"></script>
     <script src="~/assets/js/hamburger.js"></script>

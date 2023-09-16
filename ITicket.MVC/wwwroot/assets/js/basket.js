@@ -1,165 +1,84 @@
-// function GetCards() {
-//     let cardlist = JSON.parse(localStorage.getItem('Cards'))
+function GetProducts() {
+    let items = JSON.parse(localStorage.getItem('row'));
 
-//     let x = ''
+    let alertbox = document.querySelector('.alert');
 
-//     cardlist.forEach(card => {
-//         x += `
-//         <tr>
-//             <th id="${card.Id}" scope="row">${card.Id}</th>
-//             <td class="img"><img src=${card.Image}></td>
-//             <td>${card.Card}</td>
-//             <td><input id="cardinput" type="number" min="1" value="${card.Count}"></td>
-//             <td>${card.Price}</td>
-//             <td>${((Number(card.Count)) * (Number(card.Price))).toFixed(2)}</td>
-//             <td><button class="btn">Delete</button></td>
-//         </tr>
-//         `
-//     });
+    if (items.length === 0) {
+        alertbox.classList.remove('d-none')
+        document.querySelector('table').classList.add('d-none')
+    }
+    else {
+        alertbox.classList.add('d-none')
+        document.querySelector('.chart').classList.remove('d-none')
 
-//     document.querySelector('tbody').innerHTML = x
+        let x = '';
+        items.forEach(item => {
+            console.log(item);
+            x += `<div class="col-12">
+        <ul id="${item.Id}">
+            <li>
+                <img src="${item.Image}" alt="">
+            </li>
+            <li>
+                ${item.Name}
+            </li>
+            <li>
+                <input type="number" name="" min="1" value="${item.Count}" id="Count_prod">
+            </li>
+            <li>
+               ${item.Price * item.Count} AZN
+            </li>
+            <li>
+                <button type="button" class="btn btn-danger">
+                    delete
+                </button>
+            </li>
+        </ul>
+    </div>
+        `
+        })
+        document.querySelector('#save_products').innerHTML = x;
 
-//     if(cardlist.length === 0) {
-//         document.querySelector('.foralert').classList.remove('d-none')
-//         document.querySelector('table').classList.add('d-none')
-//     }
-
-//     else{
-//         document.querySelector('.foralert').classList.add('d-none')
-//         document.querySelector('table').classList.remove('d-none')
-//     }
-// }
-
-// GetCards()
-
-// let cardlist = JSON.parse(localStorage.getItem('Cards'))
-// let btns = document.querySelectorAll('.btn')
-
-// for(let btn of btns) {
-//     btn.onclick = function() {
-//         let id = this.parentElement.parentElement.firstElementChild.id
-//         let filteredCard = cardlist.filter(card => card.Id !== id)
-//         localStorage.setItem('Cards', JSON.stringify(filteredCard))
-
-//         let x = ''
-
-//         filteredCard.forEach(card => {
-//             x += `
-//             <tr>
-//                 <th id="${card.Id}" scope="row">${card.Id}</th>
-//                 <td class="img"><img src=${card.Image}></td>
-//                 <td>${card.Card}</td>
-//                 <td><input type="number" min="1" value="${card.Count}"></td>
-//                 <td>${card.Price}</td>
-//                 <td>${((Number(card.Count)) * (Number(card.Price))).toFixed(2)}</td>
-//                 <td><button class="btn">Delete</button></td>
-//             </tr>
-//             `
-//         })
-
-//         document.querySelector('tbody').innerHTML = x
-//         location.reload()
-//     }
-// }
-
-// let cardinput = document.querySelectorAll('#cardinput')
-
-// for(let i = 0; i < cardinput.length; i++) {
-//     cardinput[i].addEventListener('input', countIncreaser)
-// }
-
-// function countIncreaser() {
-//     let cardlist = JSON.parse(localStorage.getItem('Cards'))
-
-//     for(let i = 0; i < cardinput.length; i++) {
-//         let count = Number(cardinput[i].value)
-//         cardlist[i].Count = count
-//     }
-
-//     localStorage.setItem('Cards', JSON.stringify(cardlist))
-//     window.location.reload()
-// }
-
-
-
-
-// if(localStorage.getItem('Cards') == null) {
-//     localStorage.setItem('Cards', JSON.stringify([]))
-// }
-
-// let cardbtns = document.querySelectorAll('.ubankcards .box .text button')
-
-// for(let cardbtn of cardbtns) {
-//     cardbtn.onclick = function() {
-//         let cardlist = JSON.parse(localStorage.getItem('Cards'))
-
-//         let id = this.parentElement.parentElement.id
-//         let src = this.parentElement.previousElementSibling.firstElementChild.src
-//         let card = this.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML
-//         let price = this.previousElementSibling.firstElementChild.innerHTML
-
-//         let existCard = cardlist.find(card => card.Id === id)
-
-//         if(existCard == undefined) {
-//             cardlist.push({
-//                 Id: id,
-//                 Image: src,
-//                 Card: card,
-//                 Price: price,
-//                 Count: 1,
-//             })
-//         }
-
-//         else{
-//             existCard.Count += 1
-//         }
-
-//         localStorage.setItem('Cards', JSON.stringify(cardlist))
-//         ShowCount()
-//     }
-// }
-
-// function ShowCount() {
-//     let count = document.querySelector('.creditcard a span')
-//     let cardlist = JSON.parse(localStorage.getItem('Cards'))
-
-//     count.innerHTML = cardlist.length
-// }
-
-// ShowCount()
-
-// basket
-// let basketsecondbtn = document.querySelector('#basketsecondbtn')
-// let basketsecond = document.querySelector('.basketsecond')
-// let close = document.querySelector('#close_basketsecond')
-// const body = document.body;
-
-
-// basketsecondbtn.onclick = function() {
-//     basketsecond.classList.remove('d-none')
-//   body.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-// }
-
-// close.onclick = function() {
-//     basketsecond.classList.add('d-none')
-//   body.style.backgroundColor = "#e5e7eb";
-// }
-
-
-// close.onclick = function() {
-//     basketsecond.classList.add('d-none')
-//   body.style.backgroundColor = "#e5e7eb";
-// }
-
-
-// Basketsecond
-let basket_icon = document.querySelector('.basket_icon')
-let basket_box = document.querySelector('.basketsecond')
-
-basket_icon.onclick = function() {
-  basket_box.classList.toggle('d-none')
-  body.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-
+    }
 }
+
+GetProducts();
+
+let delete_btns = document.querySelectorAll('.btn-danger');
+
+for (let btn of delete_btns) {
+    btn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        let id = btn.parentElement.parentElement.id;
+        let items = JSON.parse(localStorage.getItem('products'));
+
+        let new_chart = items.filter(item => item.Id !== id);
+        console.log(new_chart);
+        localStorage.setItem('products', JSON.stringify(new_chart));
+        location.reload()
+    })
+}
+
+
+let countproducts = document.querySelectorAll('#Count_prod')
+
+for (let i = 0; i < countproducts.length; i++) {
+    countproducts[i].addEventListener('input', changeCount)
+}
+
+function changeCount() {
+    let items = JSON.parse(localStorage.getItem('products'));
+
+    for (let i = 0; i < countproducts.length; i++) {
+        let count = Number(countproducts[i].value)
+        items[i].Count = count
+    }
+
+    localStorage.setItem('products', JSON.stringify(items))
+    window.location.reload()
+}
+
+
 
 
