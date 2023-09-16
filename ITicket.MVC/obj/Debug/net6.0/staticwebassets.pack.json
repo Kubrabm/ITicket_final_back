@@ -1057,6 +1057,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\hamburger.js"
     },
     {
+      "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\input.js",
+      "PackagePath": "staticwebassets\\assets\\js\\input.js"
+    },
+    {
       "Id": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\search.js",
       "PackagePath": "staticwebassets\\assets\\js\\search.js"
     },

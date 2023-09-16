@@ -52,12 +52,12 @@ namespace ITicket.DAL.Data
             var user = new AppUser
             {
                 UserName = "Admin",
-                Email = "kubrabm@code.edu.az",
+                Email = "m.kubra1996@gmail.com",
                 Fullname = "Admin",
                 EmailConfirmed = true,
             };
 
-            var result = await _userManager.CreateAsync(user, "Admin");
+            var result = await _userManager.CreateAsync(user, "123456");
 
             result = await _userManager.AddToRoleAsync(user, RoleConstants.AdminRole);
         }

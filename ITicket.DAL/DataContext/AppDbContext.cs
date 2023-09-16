@@ -19,6 +19,7 @@ namespace ITicket.DAL.DataContext
         public DbSet<Header> Header { get; set; }
         public DbSet<Footer> Footer { get; set; }
         public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<AllEvent> AllEvents { get; set; }
         public DbSet<Concert> Concerts { get; set; }
         public DbSet<KhayalKahvesi> KhayalKahvesis { get; set; }
         public DbSet<Kid> Kids { get; set; }

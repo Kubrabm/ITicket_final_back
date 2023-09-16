@@ -4,6 +4,7 @@
     Layout = null;
 }
 
+
 @{
    HomeViewModel model = Model;
     var sliderimgs = model.SliderImgs;
@@ -109,6 +110,7 @@
                         <a href="~/pageant/index">Tamaşa</a>
                         <a href="~/kid/index">Uşaqlar</a>
                         <a href="~/khayalkahvesi/index">Hayal Kahvesi</a>
+                        <a href="~/sport/index">İdman</a>
                         <span class="options">...</span>
                     </nav>
 
@@ -287,7 +289,6 @@
                     </div>
 
                     <div class="navbar_options d-none">
-                        <a href="~/sport/index">İdman</a>
                         <a href="~/museum/index">Muzey</a>
                         <a href="~/tourism/index">Turizm</a>
                         <a href="~/seminar/index">Seminar</a>
@@ -322,6 +323,7 @@
             </div>
         </div>
         <!-- End of the slider -->
+
         <!-- Popular Events -->
         <div class="custom_container">
             <div class="wrapper">
@@ -330,70 +332,25 @@
                 </div>
                 <div class="wrapper_inner">
                     <div class="carousel">
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/concert8.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/covnzAprtaGBJcuDRA7azSuYPySBsVBDvTfc5g6w.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
+                        @foreach (var item in popularevents)
+                        {
+                            <div class="card">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="~/assets/image/@item.ImgUrl"
+                                             style="background-image:
+                                    url(@item.BgImgUrl);"
+                                             alt="img" draggable="false">
+                                    </a>
+                                </div>
+                                <p>
+                                    <span id="event_date">@item.Date</span>
+                                    <span id="event_location"> • @item.Location</span>
+                                    <span id="name">@item.Name</span>
+                                </p>
+                                <button><span class="btn"><span class="price">@item.Price ₼</span>-dan</span></button>
                             </div>
-                            <p>
-                                <span id="event_date">07 oktyabr 2023</span>
-                                <span id="event_location"> • Heydər Əliyev Sarayı</span>
-                                <span id="name">KERIMCAN DURMAZ</span>
-                            </p>
-                            <button><span class="btn"><span class="price">30 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/concert9.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/W4DAkXO1TiO33BwY7MSTFdqvJZ8N6YH62BnZIQ6k.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">07 oktyabr 2023</span>
-                                <span id="event_location"> • Heydər Əliyev Sarayı</span>
-                                <span id="name">MADRIGAL</span>
-                            </p>
-                            <button><span class="btn"><span class="price">30 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/concert12.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/jzYk86kJjffDXd70fvPePgHsDkMAAGTRpLIJJdJJ.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">07 oktyabr 2023</span>
-                                <span id="event_location"> • Heydər Əliyev Sarayı</span>
-                                <span id="name">RÖYA-BİRİ VAR</span>
-                            </p>
-                            <button><span class="btn"><span class="price">30 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/concert4.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/hdrwrwkAJGmq9JZrV3lmaYPh1iMQnpNblaNXvBJR.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">07 oktyabr 2023</span>
-                                <span id="event_location"> • Heydər Əliyev Sarayı</span>
-                                <span id="name">Halil Sezai</span>
-                            </p>
-                            <button><span class="btn"><span class="price">30 ₼</span>-dan</span></button>
-                        </div>
+                        }
                     </div>
                     <i id="left" class="fa-solid fa-angle-left"></i>
                     <i id="right" class="fa-solid fa-angle-right"></i>
@@ -401,6 +358,7 @@
             </div>
         </div>
         <!-- End of the popular events -->
+
         <!-- Banner -->
         <div class="custom_container">
             <div class="banner d-flex justify-content-between">
@@ -408,6 +366,7 @@
             </div>
         </div>
         <!-- End of the banner -->
+
         <!--  Tourism -->
         <div class="custom_container">
             <div class="wrapper">
@@ -416,77 +375,34 @@
                 </div>
                 <div class="wrapper_inner">
                     <div class="carousel">
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/tourism.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/QxmbSI4QPCn8uTpuTMXuNLEQIBvbk39AXoeN05MT.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
+                        @foreach (var item in tourisms)
+                        {
+                            <div class="card">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="~/assets/image/@item.ImgUrl"
+                                             style="background-image:
+                                    url(@item.BgImgUrl);"
+                                             alt="img" draggable="false">
+                                    </a>
+                                </div>
+                                <p>
+                                    <span id="event_date">@item.Date</span>
+                                    <span id="event_location"> • @item.Location</span>
+                                    <span id="name">@item.Name</span>
+                                </p>
+                                <button><span class="btn"><span class="price">@item.Price ₼</span>-dan</span></button>
                             </div>
-                            <p>
-                                <span id="event_date">27 avqust 2023</span>
-                                <span id="event_location"> • Lahıc</span>
-                                <span id="name">Lahıc</span>
-                            </p>
-                            <button><span class="btn"><span class="price">2 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/tourism.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/DrahkHzhTDqBCNlpAzmXoo29YFTERKTncd2Nmy45.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">27 avqust 2023</span>
-                                <span id="event_location"> • Kiş Alban Məbədi</span>
-                                <span id="name">Kiş Alban Məbədi</span>
-                            </p>
-                            <button><span class="btn"><span class="price">2 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/tourism5.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/sOlQbC0XesDtTLN2noiv4uU3Czf6rArC6LfiI1b7.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">27 avqust 2023</span>
-                                <span id="event_location"> • Şəkixanovlar evi</span>
-                                <span id="name">Şəkixanovlar evi</span>
-                            </p>
-                            <button><span class="btn"><span class="price">2 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/tourism.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/di0cJKbJMcwDIXXxOkZpYgbTeLmdCqKB7FAQE0PM.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">27 avqust 2023</span>
-                                <span id="event_location"> • Şəki Xan Sarayı</span>
-                                <span id="name">Şəki Xan Sarayı</span>
-                            </p>
-                            <button><span class="btn"><span class="price">2 ₼</span>-dan</span></button>
-                        </div>
+                        }
                     </div>
                     <i id="left" class="fa-solid fa-angle-left"></i>
                     <i id="right" class="fa-solid fa-angle-right"></i>
                 </div>
+
             </div>
         </div>
         <!-- End of the tourism -->
+
         <!-- Epoint -->
         <div class="custom_container">
             <div class="epoint">
@@ -494,6 +410,7 @@
             </div>
         </div>
         <!-- End of the epoint -->
+
         <!--  Pageant -->
         <div class="custom_container">
             <div class="wrapper">
@@ -502,71 +419,25 @@
                 </div>
                 <div class="wrapper_inner">
                     <div class="carousel">
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/kid1.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/HLfV4lIP9TpeCnzD3ecsCGKWEXifFCLNX83vpzKn.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
+                        @foreach (var item in pageants)
+                        {
+                            <div class="card">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="~/assets/image/@item.ImgUrl"
+                                             style="background-image:
+                                    url(@item.BgImgUrl);"
+                                             alt="img" draggable="false">
+                                    </a>
+                                </div>
+                                <p>
+                                    <span id="event_date">@item.Date</span>
+                                    <span id="event_location"> • @item.Location</span>
+                                    <span id="name">@item.Name</span>
+                                </p>
+                                <button><span class="btn"><span class="price">@item.Price ₼</span>-dan</span></button>
                             </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Çırtdan</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/kid2.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/sezmcWc2GgMTeS5BGbttwF7NNKRV3thA4OGmxkla.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Göyçək Fatma</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/pageant1.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/ziGWx7OcASbU6ZP0EHycXMK4wbv03VNclcrKJzUn.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Sən kimsən?</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/pageant6.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/vl3KmB4lcm4SAYT6xkmn1o6uHOaa08VvnsyhLzHM.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Küknarlar Mətub</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
+                        }
                     </div>
                     <i id="left" class="fa-solid fa-angle-left"></i>
                     <i id="right" class="fa-solid fa-angle-right"></i>
@@ -574,6 +445,7 @@
             </div>
         </div>
         <!-- End of the pegeant -->
+
         <!--  Kids -->
         <div class="custom_container" id="withbgbox">
             <div class="wrapper">
@@ -582,70 +454,25 @@
                 </div>
                 <div class="wrapper_inner">
                     <div class="carousel">
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/kid1.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/HLfV4lIP9TpeCnzD3ecsCGKWEXifFCLNX83vpzKn.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
+                        @foreach (var item in kids)
+                        {
+                            <div class="card">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="~/assets/image/@item.ImgUrl"
+                                             style="background-image:
+                                    url(@item.BgImgUrl);"
+                                             alt="img" draggable="false">
+                                    </a>
+                                </div>
+                                <p>
+                                    <span id="event_date">@item.Date</span>
+                                    <span id="event_location"> • @item.Location</span>
+                                    <span id="name">@item.Name</span>
+                                </p>
+                                <button><span class="btn"><span class="price">@item.Price ₼</span>-dan</span></button>
                             </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Çırtdan</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/kid2.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/sezmcWc2GgMTeS5BGbttwF7NNKRV3thA4OGmxkla.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Göyçək Fatma</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/kid3.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/juwxFo2Zpw3cm0yoIlcIHwRPYsFtpa2Lmndx6c1A.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Qaraca Qız</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/kid4.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/ui8ZF7kCA5eF4HzYzcHF44vObz1T1VUZORiHhKlI.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Lilovoe</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
+                        }
                     </div>
                     <i id="left" class="fa-solid fa-angle-left"></i>
                     <i id="right" class="fa-solid fa-angle-right"></i>
@@ -653,6 +480,7 @@
             </div>
         </div>
         <!-- End of the kids -->
+
         <!--  Weekends -->
         <div class="custom_container">
             <div class="wrapper">
@@ -661,70 +489,25 @@
                 </div>
                 <div class="wrapper_inner">
                     <div class="carousel">
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/kidsmasterklass.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/PFxbAFOF9wLVddF8xddiBT9G9ynbDRCYxnJBgyJI.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
+                        @foreach (var item in wekkends)
+                        {
+                            <div class="card">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="~/assets/image/@item.ImgUrl"
+                                             style="background-image:
+                                    url(@item.BgImgUrl);"
+                                             alt="img" draggable="false">
+                                    </a>
+                                </div>
+                                <p>
+                                    <span id="event_date">@item.Date</span>
+                                    <span id="event_location"> • @item.Location</span>
+                                    <span id="name">@item.Name</span>
+                                </p>
+                                <button><span class="btn"><span class="price">@item.Price ₼</span>-dan</span></button>
                             </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Teatr O2</span>
-                                <span id="name">Uşaqlar üçün Master Class</span>
-                            </p>
-                            <button><span class="btn"><span class="price">7 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/masterclass1.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/OoG3jm2jVfALOCvECwmGfPV9c03IQRhxFbpH3nmZ.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">29 avqust 2023</span>
-                                <span id="event_location"> • Caspian Plaza</span>
-                                <span id="name">Aida Collection Master</span>
-                            </p>
-                            <button><span class="btn"><span class="price">15 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/masterclass2.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/VIRlq3snuuSdAoYvLjx7qhcM1Xlhh3HPFuQOXTBR.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">29 avqust 2023</span>
-                                <span id="event_location"> • Caspian Plaza</span>
-                                <span id="name">Robot Tecnologiyaları</span>
-                            </p>
-                            <button><span class="btn"><span class="price">15 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/masterclass3.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/3JAAMCcs4V3rFbZmc6UOvOxlvb7csJjvyHUDMQHo.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">29 avqust 2023</span>
-                                <span id="event_location"> • Caspian Plaza</span>
-                                <span id="name">Pizza Maste Kids</span>
-                            </p>
-                            <button><span class="btn"><span class="price">15 ₼</span>-dan</span></button>
-                        </div>
+                        }
                     </div>
                     <i id="left" class="fa-solid fa-angle-left"></i>
                     <i id="right" class="fa-solid fa-angle-right"></i>
@@ -732,6 +515,7 @@
             </div>
         </div>
         <!-- End of the weekends -->
+
         <!--  Novelty -->
         <div class="custom_container">
             <div class="wrapper">
@@ -740,70 +524,25 @@
                 </div>
                 <div class="wrapper_inner">
                     <div class="carousel">
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/seminar1.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/swsUX7EqQ11Atb94k7s6CmL9klMl4NN7ZiwNs5dl.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
+                        @foreach (var item in noveltys)
+                        {
+                            <div class="card">
+                                <div class="img">
+                                    <a href="#">
+                                        <img src="~/assets/image/@item.ImgUrl"
+                                             style="background-image:
+                                    url(@item.BgImgUrl);"
+                                             alt="img" draggable="false">
+                                    </a>
+                                </div>
+                                <p>
+                                    <span id="event_date">@item.Date</span>
+                                    <span id="event_location"> • @item.Location</span>
+                                    <span id="name">@item.Name</span>
+                                </p>
+                                <button><span class="btn"><span class="price">@item.Price ₼</span>-dan</span></button>
                             </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Bakı Konqres Mərkəzi</span>
-                                <span id="name">New Zeon Digital Fest</span>
-                            </p>
-                            <button><span class="btn"><span class="price">40 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/seminar2.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/wXLJRtKGOWv9NLx9If5Mm0hEnoxACPbJA7BCOWG3.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Bakı Konqres Mərkəzi</span>
-                                <span id="name">Uşaqlara diqqət</span>
-                            </p>
-                            <button><span class="btn"><span class="price">40 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/seminar3.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/bSsk5NdVgRr8R9aria5x1ykPCfybkJsNG2Ea6KCt.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Bakı Konqres Mərkəzi</span>
-                                <span id="name">Dursun Ali</span>
-                            </p>
-                            <button><span class="btn"><span class="price">40 ₼</span>-dan</span></button>
-                        </div>
-                        <div class="card">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="~/assets/image/seminar4.png"
-                                         style="background-image:
-                                    url(https://cdn.iticket.az/event/poster_bg/DethbpRrzGiKAVZUUDPte61oUpuIM7w4xsvnkWRZ.jpg);"
-                                         alt="img" draggable="false">
-                                </a>
-                            </div>
-                            <p>
-                                <span id="event_date">17 sentyabr 2023</span>
-                                <span id="event_location"> • Bakı Konqres Mərkəzi</span>
-                                <span id="name">Science Talk 2023</span>
-                            </p>
-                            <button><span class="btn"><span class="price">40 ₼</span>-dan</span></button>
-                        </div>
+                        }
                     </div>
                     <i id="left" class="fa-solid fa-angle-left"></i>
                     <i id="right" class="fa-solid fa-angle-right"></i>

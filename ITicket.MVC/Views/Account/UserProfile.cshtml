@@ -1,45 +1,28 @@
 ﻿@model UserProfileViewModel
 @{
     ViewData["Title"] = "UserProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-            <main>
-                <section>
-                    <div class="account_infobox">
-                        <i class="fa-solid fa-user-plus log"></i>
-                        <span>@Model.Fullname</span>
-                        <p>Şəxsi kabinetinə xoş gəlmisən!</p>
-                        <div class="logout d-none">
-                            <div class="logout_option">
-                                <i class="fa-solid fa-key"></i>
-                                @if (User.Identity.IsAuthenticated)
-                                {
-                                    <a asp-action="changepassword">Şifrəni dəyiş</a>
-                                }
-                            </div>
-                            <div class="logout_option">
-                                <i class="fa-solid fa-lock"></i>
-                                <a asp-action="logout">Hesabdan çıxış</a>
-                            </div>
-                        </div>
-                        <div class="request_box">
-                            <h1>Müraciətlər qutusu (<i class="fa-regular fa-envelope"></i><span></span>)</h1>
-                            <div class="request_title">
-                                <div class="request_row">№</div>
-                                <div class="request_content">Müraciətin məzmunu</div>
-                                <div class="request_date">Tarix</div>
-                                <div class="request_status">Status</div>
-                            </div>
-                            <hr>
-                            <div class="alert alert-danger w-50 my-5 mx-auto text-center" style="font-family: montserrat;">Hal-hazırda edilmiş heç bir müraciətiniz yoxdur</div>
-                            <div class="request_result">
-                                <div class="request_row"></div>
-                                <div class="request_content"></div>
-                                <div class="request_date"></div>
-                                <div class="request_status"></div>
-                            </div>
-                        </div>
+<div class="custom_container">
+    <main>
+        <section>
+            <div class="account_infobox">
+                <i class="fa-solid fa-user-plus log"></i>
+                <span>@Model.Fullname</span>
+                <p>Şəxsi kabinetinə xoş gəlmisən!</p>
+                <div class="logout">
+                    <div class="logout_option">
+                        <i class="fa-solid fa-key"></i>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a asp-action="changepassword">Şifrəni dəyiş</a>
+                        }
                     </div>
-                </section>
-            </main>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
 

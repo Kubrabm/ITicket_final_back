@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mqso8VUasefWw1dXFPUHZb64YHb1ubeVQ/tqhsy5iVA=",
+  "Hash": "ISNqh2u+cXSzI1GJXcOmO0I4pB1QKBRErBCt4ZZTG90=",
   "Source": "ITicket.MVC",
   "BasePath": "_content/ITicket.MVC",
   "Mode": "Default",
@@ -4503,6 +4503,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\hamburger.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\input.js",
+      "SourceId": "ITicket.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\",
+      "BasePath": "_content/ITicket.MVC",
+      "RelativePath": "assets/js/input.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\input.js"
     },
     {
       "Identity": "C:\\Users\\Kubra\\Desktop\\ITicket_final_back\\ITicket.MVC\\wwwroot\\assets\\js\\search.js",

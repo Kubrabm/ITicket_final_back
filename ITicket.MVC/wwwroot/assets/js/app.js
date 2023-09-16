@@ -241,3 +241,6 @@ function loadMoreBoxes() {
 document.getElementById('load-more').addEventListener('click', loadMoreBoxes);
 
 window.addEventListener('load', loadMoreBoxes);
+
+
+

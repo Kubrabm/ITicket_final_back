@@ -15,6 +15,7 @@ namespace ITicket.MVC.ViewModels
         public List<Sport> Sports = new List<Sport>();
         public List<Theatre> Theatres = new List<Theatre>();
         public List<Tourism> Tourisms = new List<Tourism>();
+        public List<AllEvent> AllEvents = new List<AllEvent>();
 
     }
 }

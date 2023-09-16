@@ -92,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Kubra/Desktop/ITicket_final_back/ITicket.MVC/Views/AllEvents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsRXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kubra/Desktop/ITicket_final_back/ITicket.MVC/Views/AllEvents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxsRXZlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

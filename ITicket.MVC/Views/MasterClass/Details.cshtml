@@ -12,7 +12,7 @@
     <div class="detailsimg">
 
         <div class="details-container">
-            <img class="ticketImage" src="~/assets/image/@Model.DetailPageImg">
+            <img class="ticketImage" src="@Model.DetailPageImg">
         </div>
 
         <div class="imgicon">
@@ -23,55 +23,6 @@
                 <i class="fa-regular fa-share-from-square"></i>
             </a>
 
-        </div>
-        <!-- The Modal Login -->
-        <div id="id04" class="share d-none">
-            <span class="close" id="close4" title="Close Modal">&times;</span>
-            <form class="modal-content animate" action="/action_page.php">
-
-                <div class="sharelink">
-                    <div class="title">
-                        <p>Paylaş</p>
-                    </div>v>
-                    <div class="sharesmm">
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <a href="">
-                                    <i class="fa-brands fa-square-whatsapp"></i>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a href="">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a href="">
-                                    <i class="fa-brands fa-telegram"></i>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a href="">
-                                    <i class="fa-brands fa-vk"></i>
-                                </a>
-                            </div>
-                            <div class="col-lg-2">
-                                <a href="">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="copy">
-                            <p>Və ya linki kopyala</p>
-                        </div>
-                        <div class="form-group">
-                            <button id="sharebtn" type="submit" class="btn">
-                                Paylaş
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </form>
         </div>
 
         <div class="detailsinfo">
@@ -169,11 +120,17 @@
                                     <div class="buyer-type" title="GA Standard">GA Standard</div>
                                     <div class="price" data-value="10"><span class="ticketPrice">10</span><span>₼</span></div>
                                 </div>
+
                                 <div class="counter">
-                                    <button type="button" class="decrease">-</button>
-                                    <input type="number" autocomplete="off" readonly="" min="1" max="10" value="1" step="1">
-                                    <button type="button" class="increase">+</button>
-                                </div><div class="available">Mövcuddur: 186</div><button class="add">Əlavə edin</button>
+
+                                    <div class="miktar-input">
+                                        <button type="button" class="decrease" onclick="decrease()">-</button>
+                                        <input type="number" id="miktar" value="0" min="0">
+                                        <button type="button" class="increase" onclick="increase()">+</button>
+                                    </div>
+
+                                </div><div class="available">Mövcuddur: 186</div>
+                                <button class="add">Əlavə edin</button>
                             </div>
                         </div>
 
@@ -205,11 +162,18 @@
                         <p id="secondbtninfo">18+ / Multilingual</p>
 
                     </div>
-                    <img id="imgsecond" src="./assets/image/slider/cuban_nights.jpg" alt="">
+                    <img id="imgsecond" src="~/assets/image/@Model.ImgUrl"
+                         style="background-image:
+                                    url(@Model.BgImgUrl);"
+                         alt="img" draggable="false">
+
                 </div>
                 <div class="col-lg-6">
                     <div class="img">
-                        <img src="./assets/image/slider/cuba_nights2.png" alt="">
+                        <img src="~/assets/image/@Model.ImgUrl"
+                             style="background-image:
+                                    url(@Model.BgImgUrl);"
+                             alt="img" draggable="false">
                     </div>
                 </div>
             </div>
@@ -256,39 +220,4 @@
 
 </div>
 <!-- End of the inner -->
-
-<!-- Similarevents -->
-<div class="custom_container">
-
-    <div class="Similaractions">
-
-        <div class="tittle_page">
-            <h1>Oxşar tədbirlər</h1>
-        </div>
-
-        <div class="box">
-
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="img">
-                        <a href="~/details/index">
-                            <img src="~/assets/image/iremderici.png" style="background-image: url(./assets/image/bgiremderici.jpg);" alt="img" draggable="false">
-                        </a>
-                    </div>
-                    <p>
-                        <span id="event_date">@Model.Date</span>
-                        <span id="event_location"> • @Model.Location</span>
-                        <span id="name">@Model.Name</span>
-                    </p>
-                    <button><span class="btn"><span class="price">@Model.Price ₼</span>-dan</span></button>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-<!-- End of the similarevents -->
 @await Component.InvokeAsync("BasketSecond")
