@@ -1,4 +1,4 @@
-﻿// Input alanı ve değeri al
+// Input alanı ve değeri al
 var miktarInput = document.getElementById('miktar');
 var miktar = 0; // Başlangıçta sıfır
 

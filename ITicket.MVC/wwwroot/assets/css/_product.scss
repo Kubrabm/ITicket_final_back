@@ -18,5 +18,17 @@ body{
         img{
             width: 100%;
         }
+        #add_btn{
+            text-decoration: none;
+            color: black;
+            margin-top: 2rem;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #fd0;
+            padding: 8px 12px;
+            border-radius: 30px;
+            border-color: #fd0;
+        }
     }
+
 }

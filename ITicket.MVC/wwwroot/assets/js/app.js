@@ -222,7 +222,7 @@ const datePicker = document.getElementById("datePicker");
 
  
 
-var boxes = document.querySelectorAll('.row .box');
+var boxes = document.querySelectorAll('.box');
     
 var visibleBoxCount = 9;
 
@@ -241,6 +241,3 @@ function loadMoreBoxes() {
 document.getElementById('load-more').addEventListener('click', loadMoreBoxes);
 
 window.addEventListener('load', loadMoreBoxes);
-
-
-
